@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Munay — Unconditional love in action",
+    "description": "Munay is a 501(c)(3) nonprofit founded in 2026 offering trauma-informed sexual education and somatic healing for underserved communities.",
+    "ogAlt": "Munay — unconditional love in action. A 501(c)(3) nonprofit."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "languageSwitcher": "Change language",
+    "switchToSpanish": "View this page in Spanish",
+    "switchToEnglish": "View this page in English",
+    "currentLanguage": "Current language",
+    "externalLink": "Opens in a new tab",
+    "backToTop": "Back to top"
+  },
+  "nav": {
+    "brand": "Munay",
+    "tagline": "Unconditional love in action",
+    "links": [
+      { "path": "", "label": "Home" },
+      { "path": "/about", "label": "About Us" },
+      { "path": "/programs", "label": "Programs" },
+      { "path": "/calendar", "label": "Calendar" },
+      { "path": "/blog", "label": "Blog" },
+      { "path": "/contact", "label": "Contact" }
+    ],
+    "donate": "Donate"
+  },
+  "hero": {
+    "eyebrow": "501(c)(3) Nonprofit Organization · Founded 2026",
+    "titleLine1": "Unconditional love,",
+    "titleLine2": "in action.",
+    "subtitle": "We create safe, intentional spaces for healing and sexual education — trauma-informed, culturally rooted and open to everyone.",
+    "badge": "501(c)(3) Nonprofit",
+    "primaryCta": "Explore our programs",
+    "secondaryCta": "Donate",
+    "imageAlt": "Soft morning light over a quiet path surrounded by native plants.",
+    "scroll": "Scroll to learn more"
+  },
+  "home": {
+    "story": {
+      "eyebrow": "Our story",
+      "title": "Born from a gap we could no longer ignore.",
+      "paragraphs": [
+        "Munay was founded in 2026 in response to a profound gap in services for underserved communities. Survivors of abuse, assault, trafficking, torture and intimate partner violence were too often left without accessible, culturally rooted care — and with few places to talk about their bodies without shame.",
+        "We built the space we wished existed: one where positive sexual education meets somatic and holistic healing, where consent is not a footnote but the foundation, and where Andean wisdom is honored rather than extracted.",
+        "The name Munay means unconditional love in Quechua. For us, that love is a practice: showing up, listening, and creating the conditions for every person to remember their own capacity to heal."
+      ],
+      "founderEyebrow": "Founder spotlight",
+      "founderLink": "Meet the full team",
+      "founderPhotoLabel": "Photo coming soon",
+      "founderPhotoNote": "We're updating our founder's portrait."
+    },
+    "programs": {
+      "eyebrow": "What we offer",
+      "title": "Three doors into care.",
+      "intro": "Every program is designed for real life: accessible, consent-led and held by facilitators who understand trauma, culture and community.",
+      "link": "Explore all programs"
+    },
+    "event": {
+      "eyebrow": "Next community event",
+      "title": "Zumbathon",
+      "body": "Our first community gathering: a joyful, all-levels dance session celebrating movement as a path to healing. Date to be determined — subscribe and we will let you know as soon as it is published.",
+      "link": "View the calendar"
+    },
+    "donate": {
+      "eyebrow": "Support the work",
+      "title": "Help us create safe spaces for healing.",
+      "body": "Your donation funds accessible workshops, individual healing services and day retreats for communities that are too often left out. Every contribution helps us keep care within reach.",
+      "cta": "Donate through Zeffy",
+      "note": "Munay is a 501(c)(3) nonprofit organization."
+    }
+  },
+  "subscribe": {
+    "eyebrow": "Stay close",
+    "title": "Be the first to know.",
+    "body": "Join our newsletter for event dates, workshop announcements and notes from the community. No noise, no weekly pressure — only what matters.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Subscribe",
+    "success": "Thank you. You are on the list — we will write when there is news.",
+    "errorEmail": "Please enter a valid email address.",
+    "privacyNote": "We only use your email to share Munay news. You can unsubscribe at any time."
+  },
+  "about": {
+    "eyebrow": "About Munay",
+    "title": "Care that is rooted, accessible and shared.",
+    "intro": "Munay is a 501(c)(3) nonprofit founded in 2026. We accompany underserved communities through sexual education and trauma-informed somatic and holistic healing.",
+    "missionTitle": "Mission",
+    "missionBody": [
+      "Munay offers accessible services, workshops and one-day retreats for survivors of sexual abuse, assault, trafficking, torture and intimate partner violence, as well as for the communities that hold them.",
+      "We combine positive sexual education with somatic, holistic and ancestral practices so that healing is not a luxury reserved for a few. Every space is consent-led, culturally grounded and designed with the people we serve.",
+      "We do not replace clinical or legal care. We walk beside people as they access it, and we build alternatives where none exist."
+    ],
+    "visionTitle": "Vision",
+    "visionBody": [
+      "We envision a world where every person can live in a body that feels safe, speak about sexuality without shame and receive care that honors their culture, their history and their whole self.",
+      "Our vision is intersectional: healing is entangled with migration, race, gender, class, disability and the land. We work toward a future where communities are not only served but lead the creation of their own care.",
+      "We see Munay as a small part of a much larger movement: one where unconditional love becomes practical, collective and liberating."
+    ],
+    "valuesTitle": "Our values",
+    "valuesIntro": "Eight commitments guide how we hold space, make decisions and care for one another.",
+    "teamTitle": "Our team",
+    "teamIntro": "The people who hold Munay's space with care, skill and lived experience.",
+    "teamLinkLabel": "Meet the full team",
+    "teamPhotoLabel": "Photo coming soon",
+    "teamPhotoNote": "We're updating our team photos.",
+    "boardTitle": "Board of Directors",
+    "boardIntro": "Munay's board provides governance, accountability and strategic guidance."
+  },
+  "programs": {
+    "eyebrow": "Programs",
+    "title": "Healing that meets you where you are.",
+    "intro": "Our approach is holistic, community-centered and built for people who have been underserved by traditional care. These are the principles that shape every offering.",
+    "principlesTitle": "How we work",
+    "principles": [
+      {
+        "title": "Trauma-informed by design",
+        "description": "Consent, predictability, choice and safety are built into every session. You are never required to share more than you want."
+      },
+      {
+        "title": "Culturally rooted",
+        "description": "We honor Andean wisdom, migration stories and the many ways people make meaning. Care should feel like home, not like a foreign language."
+      },
+      {
+        "title": "Accessible and community-led",
+        "description": "Sliding-scale options, local partnerships and community voice shape what we offer and who can reach it."
+      }
+    ],
+    "workshopsTitle": "Workshops",
+    "workshopsIntro": "Participatory, shame-free sessions on sexual education and the themes that surround sexuality. We adapt each workshop to the age, language and lived reality of the group.",
+    "individualTitle": "Individual Services",
+    "individualIntro": "One-to-one care for the mind, body and soul. Choose the path that feels right for you — or write to us and we will help you find it.",
+    "tabListLabel": "Individual service categories",
+    "retreatsTitle": "Day Retreats",
+    "retreatsIntro": "A full day to slow down, return to the body and be held in community.",
+    "retreatsBody": [
+      "Our day retreats weave gentle movement, somatic practices, shared food and quiet time in nature. They are designed for people who need rest but cannot step away for a full week.",
+      "Each retreat has a small group, clear agreements and facilitators trained in trauma-informed care. No previous experience is needed.",
+      "Dates are announced as they are confirmed. If you would like to bring a retreat to your community or organization, we would love to hear from you."
+    ],
+    "retreatsCta": "Ask about upcoming dates",
+    "retreatsContact": "Contact us"
+  },
+  "calendar": {
+    "eyebrow": "Calendar",
+    "title": "Gather with us.",
+    "intro": "Community events, workshops and retreats. New dates are added as they are confirmed — subscribe to be notified by email.",
+    "statusTbd": "Date to be determined",
+    "statusScheduled": "Scheduled",
+    "eventsTitle": "Upcoming events"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Notes from the circle.",
+    "intro": "Stories, reflections and updates from our community events, workshops and the work of building Munay.",
+    "readMore": "Read the story",
+    "backToBlog": "Back to the blog",
+    "publishedOn": "Published on",
+    "by": "By",
+    "empty": "The first stories are on their way."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk.",
+    "intro": "Whether you are looking for care, want to bring a workshop to your community or simply want to learn more, a person reads every message. We reply within 48 business hours.",
+    "directTitle": "Write to us directly",
+    "directBody": "You can also reach us by email. We will never share your information.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "subjectLabel": "Subject / Interest",
+    "subjectPlaceholder": "Choose an option",
+    "subjects": [
+      { "value": "general", "label": "General question" },
+      { "value": "programs", "label": "Programs and services" },
+      { "value": "workshops", "label": "Workshops" },
+      { "value": "retreats", "label": "Day retreats" },
+      { "value": "donations", "label": "Donations and partnerships" },
+      { "value": "media", "label": "Press and media" }
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Share what you would like us to know…",
+    "submit": "Send message",
+    "successTitle": "Thank you for reaching out.",
+    "successBody": "We have received your message and will reply within 48 business hours.",
+    "errorRequired": "This field is required.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorSubject": "Please choose a subject.",
+    "errorSummary": "Please review the marked fields.",
+    "requiredHint": "Fields marked with * are required.",
+    "note": "Your information is only used to reply to your message. We never share it."
+  },
+  "footer": {
+    "tagline": "Unconditional love in action.",
+    "nonprofit": "501(c)(3) Nonprofit Organization",
+    "exploreLabel": "Explore",
+    "contactLabel": "Contact",
+    "email": "info@munayinaction.org",
+    "instagram": "@munayfoundation",
+    "instagramLabel": "Follow Munay on Instagram",
+    "donate": "Donate",
+    "legalLabel": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "copyright": "© 2026 Munay. All rights reserved.",
+    "madeWith": "Made with love, in reciprocity."
+  },
+  "legal": {
+    "metaTitle": "Legal — Munay",
+    "metaDescription": "Munay's privacy policy, terms of use and cookies.",
+    "title": "Small print, deep care.",
+    "intro": "Here we explain how we care for your data, the conditions of our programs and how cookies are used on this site.",
+    "updatedLabel": "Last updated",
+    "updated": "November 14, 2026",
+    "back": "Back to the home page",
+    "sections": [
+      {
+        "id": "privacidad",
+        "title": "Privacy policy",
+        "paragraphs": [
+          "Munay only collects the information you share with us through our contact and newsletter forms: name, email address, subject and message. We use it to reply to your request and, if you subscribe, to send occasional updates about our work.",
+          "We never sell, rent or share your data with third parties for commercial purposes. You can request access, correction or deletion by writing to info@munayinaction.org."
+        ]
+      },
+      {
+        "id": "terminos",
+        "title": "Terms of use",
+        "paragraphs": [
+          "Munay's programs are educational and holistic in nature. They do not replace medical, psychological or legal care. If you are in crisis or need urgent support, please contact local emergency services or a qualified professional.",
+          "Workshop and retreat registrations are confirmed according to the terms shared for each program. If you need to cancel, write to us and we will do our best to offer an alternative."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies",
+        "paragraphs": [
+          "This site only uses technical cookies needed to remember your language and to keep navigation working. We do not use advertising or third-party tracking cookies.",
+          "You can delete cookies from your browser settings at any time. If we add analytics in the future, we will update this page and ask for your consent."
+        ]
+      }
+    ]
+  }
+}

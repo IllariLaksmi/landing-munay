@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Munay — Amor incondicional en acción",
+    "description": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026 que ofrece educación sexual y sanación somática informadas en el trauma para comunidades desatendidas.",
+    "ogAlt": "Munay — amor incondicional en acción. Organización sin fines de lucro 501(c)(3)."
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido",
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación",
+    "languageSwitcher": "Cambiar idioma",
+    "switchToSpanish": "Ver esta página en español",
+    "switchToEnglish": "Ver esta página en inglés",
+    "currentLanguage": "Idioma actual",
+    "externalLink": "Se abre en una pestaña nueva",
+    "backToTop": "Volver arriba"
+  },
+  "nav": {
+    "brand": "Munay",
+    "tagline": "Amor incondicional en acción",
+    "links": [
+      { "path": "", "label": "Inicio" },
+      { "path": "/about", "label": "Nosotros" },
+      { "path": "/programs", "label": "Programas" },
+      { "path": "/calendar", "label": "Calendario" },
+      { "path": "/blog", "label": "Blog" },
+      { "path": "/contact", "label": "Contacto" }
+    ],
+    "donate": "Donar"
+  },
+  "hero": {
+    "eyebrow": "Organización sin fines de lucro 501(c)(3) · Fundada en 2026",
+    "titleLine1": "Amor incondicional,",
+    "titleLine2": "en acción.",
+    "subtitle": "Creamos espacios seguros e intencionales de sanación y educación sexual: informados en el trauma, culturalmente arraigados y abiertos a todas las personas.",
+    "badge": "501(c)(3) Sin fines de lucro",
+    "primaryCta": "Conoce nuestros programas",
+    "secondaryCta": "Donar",
+    "imageAlt": "Luz suave de la mañana sobre un sendero tranquilo rodeado de plantas nativas.",
+    "scroll": "Desliza para conocer más"
+  },
+  "home": {
+    "story": {
+      "eyebrow": "Nuestra historia",
+      "title": "Nacimos de una brecha que ya no podíamos ignorar.",
+      "paragraphs": [
+        "Munay nació en 2026 como respuesta a una brecha profunda en los servicios para comunidades desatendidas. A sobrevivientes de abuso, agresión, trata, tortura y violencia de pareja se les dejaba con demasiada frecuencia sin un cuidado accesible y culturalmente arraigado, y con pocos lugares donde hablar de sus cuerpos sin vergüenza.",
+        "Construimos el espacio que deseábamos que existiera: uno donde la educación sexual positiva se encuentra con la sanación somática y holística, donde el consentimiento no es una nota al pie sino el fundamento, y donde la sabiduría andina se honra en lugar de extraerse.",
+        "El nombre Munay significa amor incondicional en quechua. Para nosotras, ese amor es una práctica: estar presentes, escuchar y crear las condiciones para que cada persona recuerde su propia capacidad de sanar."
+      ],
+      "founderEyebrow": "Nuestra fundadora",
+      "founderLink": "Conoce al equipo completo",
+      "founderPhotoLabel": "Foto próximamente",
+      "founderPhotoNote": "Estamos actualizando el retrato de nuestra fundadora."
+    },
+    "programs": {
+      "eyebrow": "Lo que ofrecemos",
+      "title": "Tres puertas hacia el cuidado.",
+      "intro": "Cada programa está diseñado para la vida real: accesible, guiado por el consentimiento y sostenido por facilitadoras que comprenden el trauma, la cultura y la comunidad.",
+      "link": "Explorar todos los programas"
+    },
+    "event": {
+      "eyebrow": "Próximo evento comunitario",
+      "title": "Zumbatón",
+      "body": "Nuestro primer encuentro comunitario: una sesión de baile alegre y para todos los niveles que celebra el movimiento como camino de sanación. Fecha por confirmar: suscríbete y te avisaremos en cuanto se publique.",
+      "link": "Ver el calendario"
+    },
+    "donate": {
+      "eyebrow": "Apoya nuestro trabajo",
+      "title": "Ayúdanos a crear espacios seguros de sanación.",
+      "body": "Tu donación financia talleres accesibles, servicios individuales de sanación y retiros de un día para comunidades que suelen quedar fuera. Cada aporte nos ayuda a mantener el cuidado al alcance de todas las personas.",
+      "cta": "Donar a través de Zeffy",
+      "note": "Munay es una organización sin fines de lucro 501(c)(3)."
+    }
+  },
+  "subscribe": {
+    "eyebrow": "Mantente cerca",
+    "title": "Sé la primera en enterarte.",
+    "body": "Únete a nuestro boletín para conocer fechas de eventos, anuncios de talleres y notas de la comunidad. Sin ruido ni presión semanal: solo lo que importa.",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "submit": "Suscribirme",
+    "success": "Gracias. Ya estás en la lista: te escribiremos cuando haya novedades.",
+    "errorEmail": "Escribe un correo electrónico válido.",
+    "privacyNote": "Solo usamos tu correo para compartir novedades de Munay. Puedes darte de baja en cualquier momento."
+  },
+  "about": {
+    "eyebrow": "Sobre Munay",
+    "title": "Cuidado arraigado, accesible y compartido.",
+    "intro": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026. Acompañamos a comunidades desatendidas a través de la educación sexual y la sanación somática y holística informada en el trauma.",
+    "missionTitle": "Misión",
+    "missionBody": [
+      "Munay ofrece servicios accesibles, talleres y retiros de un día para sobrevivientes de abuso sexual, agresión, trata, tortura y violencia de pareja, así como para las comunidades que les sostienen.",
+      "Combinamos educación sexual positiva con prácticas somáticas, holísticas y ancestrales para que la sanación no sea un lujo reservado a unas pocas personas. Cada espacio está guiado por el consentimiento, arraigado en la cultura y diseñado junto a las personas a quienes servimos.",
+      "No reemplazamos la atención clínica ni legal. Caminamos al lado de las personas mientras acceden a ella y construimos alternativas donde no existen."
+    ],
+    "visionTitle": "Visión",
+    "visionBody": [
+      "Imaginamos un mundo donde cada persona pueda habitar un cuerpo que se sienta seguro, hablar de sexualidad sin vergüenza y recibir un cuidado que honre su cultura, su historia y su ser completo.",
+      "Nuestra visión es interseccional: la sanación está entrelazada con la migración, la raza, el género, la clase, la discapacidad y la tierra. Trabajamos por un futuro donde las comunidades no solo reciban servicios, sino que lideren la creación de su propio cuidado.",
+      "Vemos a Munay como una pequeña parte de un movimiento mucho más grande: uno donde el amor incondicional se vuelve práctico, colectivo y liberador."
+    ],
+    "valuesTitle": "Nuestros valores",
+    "valuesIntro": "Ocho compromisos guían la forma en que sostenemos el espacio, tomamos decisiones y nos cuidamos entre nosotras.",
+    "teamTitle": "Nuestro equipo",
+    "teamIntro": "Las personas que sostienen el espacio de Munay con cuidado, experiencia y vivencias propias.",
+    "teamLinkLabel": "Conoce al equipo completo",
+    "teamPhotoLabel": "Foto próximamente",
+    "teamPhotoNote": "Estamos actualizando las fotos del equipo.",
+    "boardTitle": "Junta directiva",
+    "boardIntro": "La junta de Munay brinda gobernanza, rendición de cuentas y orientación estratégica."
+  },
+  "programs": {
+    "eyebrow": "Programas",
+    "title": "Sanación que te encuentra donde estás.",
+    "intro": "Nuestro enfoque es holístico, centrado en la comunidad y pensado para personas que han sido desatendidas por el cuidado tradicional. Estos son los principios que dan forma a cada propuesta.",
+    "principlesTitle": "Cómo trabajamos",
+    "principles": [
+      {
+        "title": "Informados en el trauma por diseño",
+        "description": "El consentimiento, la previsibilidad, la elección y la seguridad están integrados en cada sesión. Nunca se te exige compartir más de lo que deseas."
+      },
+      {
+        "title": "Culturalmente arraigados",
+        "description": "Honramos la sabiduría andina, las historias de migración y las muchas formas en que las personas construyen sentido. El cuidado debe sentirse como hogar, no como un idioma extranjero."
+      },
+      {
+        "title": "Accesibles y liderados por la comunidad",
+        "description": "Opciones de pago proporcional, alianzas locales y la voz de la comunidad dan forma a lo que ofrecemos y a quién puede acceder."
+      }
+    ],
+    "workshopsTitle": "Talleres",
+    "workshopsIntro": "Sesiones participativas y sin vergüenza sobre educación sexual y los temas que rodean la sexualidad. Adaptamos cada taller a la edad, el idioma y la realidad vivida del grupo.",
+    "individualTitle": "Servicios individuales",
+    "individualIntro": "Cuidado individual para la mente, el cuerpo y el alma. Elige el camino que se sienta correcto para ti o escríbenos y te ayudaremos a encontrarlo.",
+    "tabListLabel": "Categorías de servicios individuales",
+    "retreatsTitle": "Retiros de un día",
+    "retreatsIntro": "Un día completo para bajar el ritmo, volver al cuerpo y sentirte sostenida por la comunidad.",
+    "retreatsBody": [
+      "Nuestros retiros de un día tejen movimiento suave, prácticas somáticas, comida compartida y tiempo de quietud en la naturaleza. Están pensados para personas que necesitan descanso pero no pueden alejarse una semana completa.",
+      "Cada retiro tiene un grupo pequeño, acuerdos claros y facilitadoras formadas en cuidado informado en el trauma. No se necesita experiencia previa.",
+      "Las fechas se anuncian a medida que se confirman. Si deseas llevar un retiro a tu comunidad u organización, nos encantaría escucharte."
+    ],
+    "retreatsCta": "Consulta las próximas fechas",
+    "retreatsContact": "Contáctanos"
+  },
+  "calendar": {
+    "eyebrow": "Calendario",
+    "title": "Encuéntrate con nosotras.",
+    "intro": "Eventos comunitarios, talleres y retiros. Agregamos nuevas fechas a medida que se confirman: suscríbete para recibir un aviso por correo.",
+    "statusTbd": "Fecha por confirmar",
+    "statusScheduled": "Programado",
+    "eventsTitle": "Próximos eventos"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Notas desde el círculo.",
+    "intro": "Historias, reflexiones y novedades de nuestros eventos comunitarios, talleres y del trabajo de construir Munay.",
+    "readMore": "Leer la historia",
+    "backToBlog": "Volver al blog",
+    "publishedOn": "Publicado el",
+    "by": "Por",
+    "empty": "Las primeras historias están en camino."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos.",
+    "intro": "Ya sea que estés buscando cuidado, quieras llevar un taller a tu comunidad o simplemente conocer más, una persona lee cada mensaje. Respondemos en un máximo de 48 horas hábiles.",
+    "directTitle": "Escríbenos directamente",
+    "directBody": "También puedes contactarnos por correo electrónico. Nunca compartiremos tu información.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "subjectLabel": "Asunto / Interés",
+    "subjectPlaceholder": "Elige una opción",
+    "subjects": [
+      { "value": "general", "label": "Consulta general" },
+      { "value": "programs", "label": "Programas y servicios" },
+      { "value": "workshops", "label": "Talleres" },
+      { "value": "retreats", "label": "Retiros de un día" },
+      { "value": "donations", "label": "Donaciones y alianzas" },
+      { "value": "media", "label": "Prensa y medios" }
+    ],
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Comparte lo que te gustaría que sepamos…",
+    "submit": "Enviar mensaje",
+    "successTitle": "Gracias por escribirnos.",
+    "successBody": "Hemos recibido tu mensaje y te responderemos en un máximo de 48 horas hábiles.",
+    "errorRequired": "Este campo es obligatorio.",
+    "errorEmail": "Escribe un correo electrónico válido.",
+    "errorSubject": "Elige un asunto.",
+    "errorSummary": "Revisa los campos marcados.",
+    "requiredHint": "Los campos con * son obligatorios.",
+    "note": "Tu información solo se usa para responder tu mensaje. Nunca la compartimos."
+  },
+  "footer": {
+    "tagline": "Amor incondicional en acción.",
+    "nonprofit": "Organización sin fines de lucro 501(c)(3)",
+    "exploreLabel": "Explorar",
+    "contactLabel": "Contacto",
+    "email": "info@munayinaction.org",
+    "instagram": "@munayfoundation",
+    "instagramLabel": "Sigue a Munay en Instagram",
+    "donate": "Donar",
+    "legalLabel": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "copyright": "© 2026 Munay. Todos los derechos reservados.",
+    "madeWith": "Hecho con amor, en reciprocidad."
+  },
+  "legal": {
+    "metaTitle": "Legal — Munay",
+    "metaDescription": "Política de privacidad, términos de uso y cookies de Munay.",
+    "title": "Letra pequeña, cuidado grande.",
+    "intro": "Aquí explicamos cómo cuidamos tus datos, las condiciones de nuestros programas y el uso de cookies en este sitio.",
+    "updatedLabel": "Última actualización",
+    "updated": "14 de noviembre de 2026",
+    "back": "Volver a la página de inicio",
+    "sections": [
+      {
+        "id": "privacidad",
+        "title": "Política de privacidad",
+        "paragraphs": [
+          "Munay recoge únicamente los datos que nos compartes a través de nuestros formularios de contacto y boletín: nombre, correo electrónico, asunto y mensaje. Los usamos para responder tu solicitud y, si te suscribes, para enviar novedades ocasionales sobre nuestro trabajo.",
+          "No vendemos, alquilamos ni cedemos tus datos a terceros con fines comerciales. Puedes solicitar su acceso, rectificación o eliminación escribiendo a info@munayinaction.org."
+        ]
+      },
+      {
+        "id": "terminos",
+        "title": "Términos de uso",
+        "paragraphs": [
+          "Los programas de Munay son de naturaleza educativa y holística. No sustituyen la atención médica, psicológica o legal. Si estás en crisis o necesitas apoyo urgente, contacta a los servicios de emergencia locales o a un profesional calificado.",
+          "Las inscripciones a talleres y retiros se confirman según los términos compartidos para cada programa. Si necesitas cancelar, escríbenos y haremos lo posible por ofrecerte una alternativa."
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "Cookies",
+        "paragraphs": [
+          "Este sitio usa únicamente cookies técnicas necesarias para recordar tu idioma y garantizar el funcionamiento de la navegación. No usamos cookies publicitarias ni de seguimiento de terceros.",
+          "Puedes borrar las cookies desde la configuración de tu navegador en cualquier momento. Si incorporamos analítica en el futuro, actualizaremos esta página y pediremos tu consentimiento."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+import Image from "next/image";
+import type { Dictionary } from "@/types/dictionary";
+import type { Locale } from "@/lib/i18n";
+import type { LocalizedEvent } from "@/data/events";
+import { SubscribeForm } from "@/components/sections/SubscribeForm";
+
+interface EventListProps {
+  events: LocalizedEvent[];
+  calendar: Dictionary["calendar"];
+  subscribe: Dictionary["subscribe"];
+  a11y: Dictionary["a11y"];
+  locale: Locale;
+}
+
+export function EventList({
+  events,
+  calendar,
+  subscribe,
+  a11y,
+  locale,
+}: EventListProps) {
+  return (
+    <section
+      aria-labelledby="events-title"
+      className="bg-cream py-20 sm:py-24"
+    >
+      <div className="mx-auto grid w-full max-w-[1440px] gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:gap-12 lg:px-12 xl:px-16">
+        <div className="lg:col-span-8">
+          <h2
+            id="events-title"
+            className="font-display text-5xl leading-[0.9] text-blue sm:text-6xl lg:text-7xl"
+          >
+            {calendar.eventsTitle}
+          </h2>
+
+          <ol className="mt-10 space-y-10">
+            {events.map((event) => {
+              const isTbd = event.status === "date-tbd";
+
+              return (
+                <li key={event.id}>
+                  <article className="overflow-hidden rounded-[2rem] border border-blue/20 bg-cream">
+                    <div className="relative aspect-[16/9]">
+                      <Image
+                        src={event.image.src}
+                        alt={event.image.alt}
+                        fill
+                        sizes="(min-width: 1024px) 66vw, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+
+                    <div className="p-6 sm:p-8">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span className="sticker bg-yellow text-blue">
+                          {isTbd
+                            ? calendar.statusTbd
+                            : calendar.statusScheduled}
+                        </span>
+                        <span className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-blue/80">
+                          {event.location}
+                        </span>
+                      </div>
+
+                      <h3 className="mt-5 font-display text-4xl leading-none text-blue sm:text-5xl">
+                        {event.name}
+                      </h3>
+                      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-blue sm:text-base">
+                        {event.description}
+                      </p>
+
+                      {event.href ? (
+                        <a
+                          href={event.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-6 inline-flex min-h-11 items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-blue underline underline-offset-4 hover:decoration-2"
+                        >
+                          {event.name}
+                          <span aria-hidden="true">↗</span>
+                          <span className="sr-only">
+                            ({a11y.externalLink})
+                          </span>
+                        </a>
+                      ) : null}
+                    </div>
+                  </article>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+
+        <aside className="lg:col-span-4">
+          <div className="rounded-[2rem] bg-blue p-7 text-cream shadow-soft sm:p-8 lg:sticky lg:top-28">
+            <p className="eyebrow text-cream/85">{subscribe.eyebrow}</p>
+            <h2 className="mt-4 font-display text-4xl leading-none text-cream">
+              {subscribe.title}
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed text-cream/90">
+              {subscribe.body}
+            </p>
+            <div className="mt-7">
+              <SubscribeForm
+                dict={subscribe}
+                tone="light"
+                idPrefix={`calendar-${locale}`}
+              />
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  );
+}
