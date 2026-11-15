@@ -51,8 +51,9 @@ export const team: TeamMember[] = [
 ];
 
 /**
- * Board structure is ready, but names are not public yet. Every entry is
- * flagged `published: false` so no placeholder or "pending" copy ever ships.
+ * Board seats are published by role while the named appointments are pending.
+ * `name` is intentionally empty: BoardList renders `boardPendingName` instead
+ * of inventing a person. Replace `name` with the real appointee before launch.
  */
 export const boardMembers: BoardMember[] = [
   {
@@ -60,21 +61,21 @@ export const boardMembers: BoardMember[] = [
     position: "chair",
     positionLabel: { en: "Chair", es: "Presidencia" },
     name: "",
-    published: false,
+    published: true,
   },
   {
     id: "secretary",
     position: "secretary",
     positionLabel: { en: "Secretary", es: "Secretaría" },
     name: "",
-    published: false,
+    published: true,
   },
   {
     id: "treasurer",
     position: "treasurer",
     positionLabel: { en: "Treasurer", es: "Tesorería" },
     name: "",
-    published: false,
+    published: true,
   },
 ];
 
@@ -91,10 +92,10 @@ export function getTeam(locale: Locale) {
 
 export function getPublishedBoardMembers(locale: Locale) {
   return boardMembers
-    .filter((member) => member.published && member.name.trim().length > 0)
+    .filter((member) => member.published)
     .map((member) => ({
       id: member.id,
-      name: member.name,
+      name: member.name.trim(),
       position: member.position,
       positionLabel: member.positionLabel[locale],
     }));

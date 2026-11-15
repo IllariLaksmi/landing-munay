@@ -55,6 +55,7 @@ export default async function AboutPage({
       />
 
       <section
+        id="mission"
         aria-labelledby="mission-title"
         className="relative overflow-hidden bg-cream py-20 sm:py-24 lg:py-28"
       >
@@ -96,6 +97,35 @@ export default async function AboutPage({
               ))}
             </div>
           </article>
+        </div>
+      </section>
+
+      <section
+        id="nonprofit"
+        aria-labelledby="nonprofit-title"
+        className="surface-blue relative overflow-hidden border-t border-blue/15 bg-blue py-16 text-cream sm:py-20"
+      >
+        <Cloud
+          tone="yellow"
+          className="absolute right-[8%] top-10 h-12 w-auto opacity-80"
+        />
+        <div className="relative mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12 xl:px-16">
+          <div className="grid gap-6 lg:grid-cols-12 lg:items-center lg:gap-12">
+            <div className="lg:col-span-5">
+              <p className="eyebrow text-cream/85">
+                {dict.about.nonprofitEyebrow}
+              </p>
+              <h2
+                id="nonprofit-title"
+                className="mt-4 font-display text-4xl leading-[0.9] text-cream sm:text-5xl lg:text-6xl"
+              >
+                {dict.about.nonprofitTitle}
+              </h2>
+            </div>
+            <p className="pretty max-w-xl text-base leading-relaxed text-cream/90 sm:text-lg lg:col-span-6 lg:col-start-7 lg:justify-self-end">
+              {dict.about.nonprofitBody}
+            </p>
+          </div>
         </div>
       </section>
 

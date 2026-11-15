@@ -10,18 +10,8 @@ export const INSTAGRAM_HANDLE = "@munayfoundation";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://munayinaction.org";
 
-/** Primary navigation, locale independent. */
-export const mainNavItems = [
-  { key: "home", path: "" },
-  { key: "about", path: "/about" },
-  { key: "programs", path: "/programs" },
-  { key: "calendar", path: "/calendar" },
-  { key: "blog", path: "/blog" },
-  { key: "contact", path: "/contact" },
-] as const;
+export function navHref(locale: string, path: string, hash?: string): string {
+  const base = path ? `/${locale}${path}` : `/${locale}`;
 
-export type MainNavKey = (typeof mainNavItems)[number]["key"];
-
-export function navHref(locale: string, path: string): string {
-  return path ? `/${locale}${path}` : `/${locale}`;
+  return hash ? `${base}#${hash}` : base;
 }

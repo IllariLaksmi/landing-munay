@@ -10,6 +10,8 @@
     "mobileNav": "Navegación móvil",
     "openMenu": "Abrir menú de navegación",
     "closeMenu": "Cerrar menú de navegación",
+    "showSubmenu": "Mostrar submenú de {label}",
+    "hideSubmenu": "Ocultar submenú de {label}",
     "languageSwitcher": "Cambiar idioma",
     "switchToSpanish": "Ver esta página en español",
     "switchToEnglish": "Ver esta página en inglés",
@@ -21,12 +23,38 @@
     "brand": "Munay",
     "tagline": "Amor incondicional en acción",
     "links": [
-      { "path": "", "label": "Inicio" },
-      { "path": "/about", "label": "Nosotros" },
-      { "path": "/programs", "label": "Programas" },
-      { "path": "/calendar", "label": "Calendario" },
-      { "path": "/blog", "label": "Blog" },
-      { "path": "/contact", "label": "Contacto" }
+      {
+        "path": "",
+        "label": "Inicio",
+        "children": [
+          { "path": "", "hash": "our-story", "label": "Nuestra historia" },
+          { "path": "", "hash": "founder", "label": "Nuestra fundadora" },
+          { "path": "/about", "hash": "nonprofit", "label": "Somos una 501(c)(3)" }
+        ]
+      },
+      {
+        "path": "/about",
+        "label": "Nosotros",
+        "children": [
+          { "path": "/about", "hash": "mission", "label": "Misión y visión" },
+          { "path": "/about", "hash": "values", "label": "Declaración de valores" },
+          { "path": "/about", "hash": "board", "label": "Junta directiva" },
+          { "path": "/about", "hash": "team", "label": "Nuestro equipo" }
+        ]
+      },
+      {
+        "path": "/programs",
+        "label": "Nuestros programas",
+        "children": [
+          { "path": "/programs", "hash": "approach", "label": "Enfoque" },
+          { "path": "/programs", "hash": "individual", "label": "Servicios individuales" },
+          { "path": "/programs", "hash": "workshops", "label": "Talleres" },
+          { "path": "/programs", "hash": "retreats", "label": "Retiros de un día" }
+        ]
+      },
+      { "path": "/calendar", "label": "Calendario", "children": [] },
+      { "path": "/blog", "label": "Blog", "children": [] },
+      { "path": "/contact", "label": "Contacto", "children": [] }
     ],
     "donate": "Donar"
   },
@@ -110,7 +138,11 @@
     "teamPhotoLabel": "Foto próximamente",
     "teamPhotoNote": "Estamos actualizando las fotos del equipo.",
     "boardTitle": "Junta directiva",
-    "boardIntro": "La junta de Munay brinda gobernanza, rendición de cuentas y orientación estratégica."
+    "boardIntro": "La junta de Munay brinda gobernanza, rendición de cuentas y orientación estratégica.",
+    "boardPendingName": "Nombre por confirmar",
+    "nonprofitEyebrow": "Transparencia",
+    "nonprofitTitle": "Somos una 501(c)(3).",
+    "nonprofitBody": "Munay es una organización sin fines de lucro constituida bajo la sección 501(c)(3) del Código de Rentas Internas de Estados Unidos. Nuestros recursos se destinan íntegramente a nuestra misión: ofrecer educación sexual y acompañamiento somático accesible para comunidades históricamente desatendidas. Publicaremos aquí nuestro número de identificación fiscal (EIN) y nuestros estados financieros anuales en cuanto estén disponibles."
   },
   "programs": {
     "eyebrow": "Programas",

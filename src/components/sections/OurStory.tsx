@@ -48,6 +48,7 @@ export function OurStory({ dict, locale }: OurStoryProps) {
 
           {founder ? (
             <aside
+              id="founder"
               aria-labelledby="founder-spotlight-title"
               className="lg:col-span-5"
             >

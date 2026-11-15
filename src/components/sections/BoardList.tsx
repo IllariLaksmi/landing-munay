@@ -8,8 +8,8 @@ interface BoardListProps {
 }
 
 /**
- * Board of Directors. Renders nothing at all until at least one member is
- * published, so the site never shows placeholder or "pending" copy.
+ * Board of Directors. Seats published without a named appointee show the
+ * localized "pending name" label instead of inventing placeholder people.
  */
 export function BoardList({ dict, locale }: BoardListProps) {
   const members = getPublishedBoardMembers(locale);
@@ -43,8 +43,14 @@ export function BoardList({ dict, locale }: BoardListProps) {
               <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-blue/80">
                 {member.positionLabel}
               </p>
-              <p className="mt-3 font-display text-3xl leading-none text-blue">
-                {member.name}
+              <p
+                className={
+                  member.name
+                    ? "mt-3 font-display text-3xl leading-none text-blue"
+                    : "mt-3 text-sm font-semibold uppercase tracking-[0.12em] text-blue/60"
+                }
+              >
+                {member.name || dict.boardPendingName}
               </p>
             </li>
           ))}

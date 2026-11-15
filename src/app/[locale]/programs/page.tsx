@@ -62,6 +62,7 @@ export default async function ProgramsPage({
       />
 
       <section
+        id="approach"
         aria-labelledby="principles-title"
         className="surface-blue relative overflow-hidden bg-blue py-20 text-cream sm:py-24"
       >
@@ -107,6 +108,7 @@ export default async function ProgramsPage({
       </section>
 
       <section
+        id="workshops"
         aria-labelledby="workshops-title"
         className="relative overflow-hidden border-t border-blue/15 bg-cream py-20 sm:py-24"
       >
@@ -148,6 +150,7 @@ export default async function ProgramsPage({
       </section>
 
       <section
+        id="individual"
         aria-labelledby="individual-title"
         className="border-t border-blue/15 bg-cream py-20 sm:py-24"
       >
@@ -179,6 +182,7 @@ export default async function ProgramsPage({
       </section>
 
       <section
+        id="retreats"
         aria-labelledby="retreats-title"
         className="surface-blue relative overflow-hidden border-t border-blue/15 bg-blue py-20 text-cream sm:py-24"
       >

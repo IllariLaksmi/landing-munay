@@ -10,6 +10,8 @@
     "mobileNav": "Mobile navigation",
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu",
+    "showSubmenu": "Show {label} submenu",
+    "hideSubmenu": "Hide {label} submenu",
     "languageSwitcher": "Change language",
     "switchToSpanish": "View this page in Spanish",
     "switchToEnglish": "View this page in English",
@@ -21,12 +23,38 @@
     "brand": "Munay",
     "tagline": "Unconditional love in action",
     "links": [
-      { "path": "", "label": "Home" },
-      { "path": "/about", "label": "About Us" },
-      { "path": "/programs", "label": "Programs" },
-      { "path": "/calendar", "label": "Calendar" },
-      { "path": "/blog", "label": "Blog" },
-      { "path": "/contact", "label": "Contact" }
+      {
+        "path": "",
+        "label": "Home",
+        "children": [
+          { "path": "", "hash": "our-story", "label": "Our Story" },
+          { "path": "", "hash": "founder", "label": "Our Founder" },
+          { "path": "/about", "hash": "nonprofit", "label": "We are a 501(c)(3)" }
+        ]
+      },
+      {
+        "path": "/about",
+        "label": "About Us",
+        "children": [
+          { "path": "/about", "hash": "mission", "label": "Mission and vision" },
+          { "path": "/about", "hash": "values", "label": "Values statement" },
+          { "path": "/about", "hash": "board", "label": "Board of Directors" },
+          { "path": "/about", "hash": "team", "label": "Our team" }
+        ]
+      },
+      {
+        "path": "/programs",
+        "label": "Our Programs",
+        "children": [
+          { "path": "/programs", "hash": "approach", "label": "Approach" },
+          { "path": "/programs", "hash": "individual", "label": "Individual services" },
+          { "path": "/programs", "hash": "workshops", "label": "Workshops" },
+          { "path": "/programs", "hash": "retreats", "label": "Day retreats" }
+        ]
+      },
+      { "path": "/calendar", "label": "Calendar", "children": [] },
+      { "path": "/blog", "label": "Blog", "children": [] },
+      { "path": "/contact", "label": "Contact", "children": [] }
     ],
     "donate": "Donate"
   },
@@ -110,7 +138,11 @@
     "teamPhotoLabel": "Photo coming soon",
     "teamPhotoNote": "We're updating our team photos.",
     "boardTitle": "Board of Directors",
-    "boardIntro": "Munay's board provides governance, accountability and strategic guidance."
+    "boardIntro": "Munay's board provides governance, accountability and strategic guidance.",
+    "boardPendingName": "Name to be confirmed",
+    "nonprofitEyebrow": "Transparency",
+    "nonprofitTitle": "We are a 501(c)(3).",
+    "nonprofitBody": "Munay is a nonprofit organization incorporated under section 501(c)(3) of the U.S. Internal Revenue Code. Our resources go entirely to our mission: accessible sexual education and somatic care for historically underserved communities. We will publish our Employer Identification Number (EIN) and annual financial statements here as soon as they are available."
   },
   "programs": {
     "eyebrow": "Programs",
