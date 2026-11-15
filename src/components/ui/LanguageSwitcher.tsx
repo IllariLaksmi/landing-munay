@@ -43,7 +43,7 @@ export function LanguageSwitcher({
 
   return (
     <div
-      className={["relative inline-flex items-center", className]
+      className={["relative inline-flex shrink-0 items-center", className]
         .join(" ")
         .trim()}
     >
@@ -52,7 +52,7 @@ export function LanguageSwitcher({
         onChange={handleChange}
         aria-label={a11y.languageSwitcher}
         className={[
-          "min-h-11 appearance-none rounded-full border py-2 pl-4 pr-9 text-[0.7rem] font-semibold tracking-[0.08em] transition-colors",
+          "min-h-11 min-w-32 appearance-none rounded-full border py-2 pl-4 pr-10 text-[0.75rem] font-semibold tracking-[0.04em] transition-colors",
           light
             ? "border-cream/40 bg-transparent text-cream hover:border-cream focus-visible:border-cream"
             : "border-blue/30 bg-transparent text-blue hover:border-blue focus-visible:border-blue",
