@@ -47,7 +47,7 @@ export function BoardList({ dict, locale }: BoardListProps) {
                 className={
                   member.name
                     ? "mt-3 font-display text-3xl leading-none text-blue"
-                    : "mt-3 text-sm font-semibold uppercase tracking-[0.12em] text-blue/60"
+                    : "mt-3 text-sm font-semibold uppercase tracking-[0.12em] text-blue/80"
                 }
               >
                 {member.name || dict.boardPendingName}
