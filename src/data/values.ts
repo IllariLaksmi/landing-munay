@@ -13,8 +13,8 @@ export interface ValueItem {
 }
 
 /**
- * The eight values that guide Munay's work. Order is intentional: it mirrors
- * the sequence used in the organization's founding documents.
+ * The eight values that guide Munay's work. Copy is taken from the
+ * organization's content document; order mirrors that document.
  */
 export const values: ValueItem[] = [
   {
@@ -22,8 +22,8 @@ export const values: ValueItem[] = [
     number: "01",
     name: { en: "Sacred Reciprocity", es: "Reciprocidad sagrada" },
     description: {
-      en: "We practice ayni: give and receive in balance. Every offering, from a workshop to a shared meal, is a relationship of mutual care rather than a transaction.",
-      es: "Practicamos el ayni: dar y recibir en equilibrio. Cada ofrenda, desde un taller hasta una comida compartida, es una relación de cuidado mutuo y no una transacción.",
+      en: "We honor reciprocity as the foundation of all healing. Our spaces, physical, emotional, and energetic, are held with intention, consent, and deep respect for earth and community, allowing participants to retreat, breathe, and reconnect without fear or judgment.",
+      es: "Honramos la reciprocidad como el fundamento de toda sanación. Nuestros espacios —físicos, emocionales y energéticos— se sostienen con intención, consentimiento y un profundo respeto por la tierra y la comunidad, permitiendo que las participantes se retiren, respiren y reconecten sin miedo ni juicio.",
     },
   },
   {
@@ -31,8 +31,8 @@ export const values: ValueItem[] = [
     number: "02",
     name: { en: "Embodied Reconnection", es: "Reconexión encarnada" },
     description: {
-      en: "The body is not an obstacle to healing; it is the place where healing happens. We listen to its rhythm, its limits and its wisdom with curiosity and consent.",
-      es: "El cuerpo no es un obstáculo para la sanación; es el lugar donde la sanación ocurre. Escuchamos su ritmo, sus límites y su sabiduría con curiosidad y consentimiento.",
+      en: "We believe healing encompasses the reconnection with the body. Through Andean healing and holistic practices, we support individuals in rebuilding their relationship with their bodies, restoring trust in their inner wisdom, and soothing the parts of themselves that trauma has silenced.",
+      es: "Creemos que la sanación abarca la reconexión con el cuerpo. A través de la sanación andina y las prácticas holísticas, acompañamos a las personas a reconstruir su relación con el cuerpo, restaurar la confianza en su sabiduría interior y calmar las partes de sí mismas que el trauma ha silenciado.",
     },
   },
   {
@@ -40,17 +40,20 @@ export const values: ValueItem[] = [
     number: "03",
     name: { en: "Compassion", es: "Compasión" },
     description: {
-      en: "Compassion is a daily practice: meeting every person, including ourselves, without judgment and with the tenderness that survival sometimes makes hard to remember.",
-      es: "La compasión es una práctica diaria: encontrarnos con cada persona, incluida nosotras mismas, sin juicio y con la ternura que a veces la supervivencia dificulta recordar.",
+      en: "We meet every person with gentleness, patience, and understanding. Our work is grounded in a deep understanding of principles that honor each survivor's pace, story, and lived experience, especially those from underserved and marginalized communities.",
+      es: "Recibimos a cada persona con gentileza, paciencia y comprensión. Nuestro trabajo se fundamenta en una comprensión profunda de principios que honran el ritmo, la historia y la experiencia vivida de cada sobreviviente, especialmente de quienes provienen de comunidades desatendidas y marginadas.",
     },
   },
   {
     id: "holistic-ancestral-wisdom",
     number: "04",
-    name: { en: "Holistic & Ancestral Wisdom", es: "Sabiduría holística y ancestral" },
+    name: {
+      en: "Holistic & Ancestral Wisdom",
+      es: "Sabiduría holística y ancestral",
+    },
     description: {
-      en: "We honor the knowledge held by our lineages while integrating contemporary, trauma-informed approaches to mental, emotional, physical and spiritual wellbeing.",
-      es: "Honramos el conocimiento que habita en nuestros linajes e integramos enfoques contemporáneos informados en el trauma para el bienestar mental, emocional, físico y espiritual.",
+      en: "We integrate mind, body, soul, and energy in our approach to healing. Drawing from Andean traditions and other holistic modalities, we recognize that transformation can be created in community spaces through a spiritual and embodied perspective.",
+      es: "Integramos mente, cuerpo, alma y energía en nuestro enfoque de sanación. Inspirándonos en las tradiciones andinas y otras modalidades holísticas, reconocemos que la transformación puede generarse en espacios comunitarios desde una perspectiva espiritual y encarnada.",
     },
   },
   {
@@ -58,8 +61,8 @@ export const values: ValueItem[] = [
     number: "05",
     name: { en: "Equity & Access", es: "Equidad y acceso" },
     description: {
-      en: "Healing should not depend on a bank account. We design accessible services, sliding-scale options and partnerships so care reaches underserved communities.",
-      es: "La sanación no debería depender de una cuenta bancaria. Diseñamos servicios accesibles, opciones de pago proporcional y alianzas para que el cuidado llegue a comunidades desatendidas.",
+      en: "We are committed to making healing accessible to those who have historically been excluded from safe, affirming, and culturally grounded spaces. Our work centers the voices and needs of underserved populations.",
+      es: "Nos comprometemos a hacer accesible la sanación a quienes históricamente han sido excluidas de espacios seguros, afirmativos y culturalmente arraigados. Nuestro trabajo centra las voces y necesidades de las poblaciones desatendidas.",
     },
   },
   {
@@ -67,17 +70,20 @@ export const values: ValueItem[] = [
     number: "06",
     name: { en: "Community & Connection", es: "Comunidad y conexión" },
     description: {
-      en: "No one heals alone. We create small, intentional circles where stories can be witnessed, rest can be shared and belonging can be rebuilt.",
-      es: "Nadie sana en soledad. Creamos círculos pequeños e intencionales donde las historias pueden ser testificadas, el descanso puede compartirse y la pertenencia puede reconstruirse.",
+      en: "Healing in community is the way our ancestors did it. We cultivate community spaces where survivors can build supportive relationships, reconnect with others, and experience belonging as part of their healing journey.",
+      es: "La sanación en comunidad es la forma en que lo hacían nuestros ancestros. Cultivamos espacios comunitarios donde las sobrevivientes pueden construir relaciones de apoyo, reconectar con otras personas y experimentar la pertenencia como parte de su proceso de sanación.",
     },
   },
   {
     id: "transformation-liberation",
     number: "07",
-    name: { en: "Transformation & Liberation", es: "Transformación y liberación" },
+    name: {
+      en: "Transformation & Liberation",
+      es: "Transformación y liberación",
+    },
     description: {
-      en: "We believe healing is also collective and political. As people reclaim their bodies and stories, they make room for a freer, safer world for everyone.",
-      es: "Creemos que la sanación también es colectiva y política. Cuando las personas recuperan sus cuerpos e historias, abren espacio para un mundo más libre y seguro para todas.",
+      en: "We believe in the possibility of profound change. Our work supports individuals in releasing what no longer serves them, reclaiming their power, and stepping into a life rooted in reconnection and liberation.",
+      es: "Creemos en la posibilidad de un cambio profundo. Nuestro trabajo acompaña a las personas a soltar lo que ya no les sirve, recuperar su poder y avanzar hacia una vida arraigada en la reconexión y la liberación.",
     },
   },
   {
@@ -85,8 +91,8 @@ export const values: ValueItem[] = [
     number: "08",
     name: { en: "Reverence for Pachamama", es: "Reverencia por la Pachamama" },
     description: {
-      en: "The Earth is our first teacher and our shared home. We care for her through reciprocity, responsible practices and reverence for the places that hold us.",
-      es: "La Tierra es nuestra primera maestra y nuestro hogar compartido. La cuidamos desde la reciprocidad, las prácticas responsables y la reverencia por los lugares que nos sostienen.",
+      en: "We honor the earth as a teacher and healer. Our practices are grounded in reciprocity, gratitude, and the understanding that healing ourselves is inseparable from healing our relationship with the natural world.",
+      es: "Honramos la tierra como maestra y sanadora. Nuestras prácticas se fundamentan en la reciprocidad, la gratitud y la comprensión de que sanarnos a nosotras mismas es inseparable de sanar nuestra relación con el mundo natural.",
     },
   },
 ];

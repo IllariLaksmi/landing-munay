@@ -28,12 +28,12 @@ export const events: EventItem[] = [
     name: { en: "Zumbathon", es: "Zumbatón" },
     status: "date-tbd",
     location: {
-      en: "Community location to be announced",
-      es: "Lugar comunitario por anunciar",
+      en: "Location to be announced",
+      es: "Lugar por anunciar",
     },
     description: {
-      en: "Our first community gathering: a joyful, all-levels dance session that celebrates movement as a path to healing. No experience needed — only comfortable clothes, water and the willingness to move at your own rhythm. Every step helps us create safe spaces for healing and sexual education.",
-      es: "Nuestro primer encuentro comunitario: una sesión de baile alegre y para todos los niveles que celebra el movimiento como camino de sanación. No necesitas experiencia, solo ropa cómoda, agua y las ganas de moverte a tu propio ritmo. Cada paso nos ayuda a crear espacios seguros para la sanación y la educación sexual.",
+      en: "Our first community event. The date is still to be confirmed.",
+      es: "Nuestro primer evento comunitario. La fecha aún está por confirmar.",
     },
     image: {
       src: unsplash("photo-1524594152303-9fd13543fe6e"),

@@ -134,7 +134,14 @@ export default async function ProgramsPage({
             </p>
           </div>
 
-          <ul className="mt-10 grid gap-px overflow-hidden rounded-[1.75rem] border border-blue/20 bg-blue/20 sm:grid-cols-2">
+          <ul
+            className={[
+              "mt-10 grid gap-px overflow-hidden rounded-[1.75rem] border border-blue/20 bg-blue/20",
+              topics.length > 1 ? "sm:grid-cols-2" : "",
+            ]
+              .join(" ")
+              .trim()}
+          >
             {topics.map((topic) => (
               <li key={topic.id} className="bg-cream p-6 sm:p-8">
                 <h3 className="font-display text-3xl leading-[0.95] text-blue">

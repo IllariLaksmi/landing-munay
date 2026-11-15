@@ -1,72 +1,84 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-import type { MouseEvent } from "react";
+import { useRouter } from "next/navigation";
+import type { ChangeEvent } from "react";
 import type { Dictionary } from "@/types/dictionary";
-import { locales, switchLocalePath, type Locale } from "@/lib/i18n";
+import {
+  localeHtmlLang,
+  localeNames,
+  locales,
+  switchLocalePath,
+  type Locale,
+} from "@/lib/i18n";
 
 interface LanguageSwitcherProps {
   locale: Locale;
   a11y: Dictionary["a11y"];
   /** `light` adapts the control to photographic/blue surfaces. */
   tone?: "default" | "light";
+  className?: string;
 }
 
+/**
+ * Native select, so the control keeps full keyboard and screen-reader support
+ * while remaining easy to extend when more locales are added.
+ */
 export function LanguageSwitcher({
   locale,
   a11y,
   tone = "default",
+  className = "",
 }: LanguageSwitcherProps) {
-  const pathname = usePathname();
   const router = useRouter();
-  const currentPath = pathname || `/${locale}`;
+  const light = tone === "light";
 
-  const handleClick = (event: MouseEvent<HTMLAnchorElement>, target: Locale) => {
-    if (typeof window === "undefined") return;
+  const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const target = event.target.value as Locale;
+
+    if (target === locale || typeof window === "undefined") return;
 
     const targetPath = `${switchLocalePath(window.location.pathname, target)}${window.location.search}${window.location.hash}`;
-    const href = event.currentTarget.getAttribute("href");
-
-    if (targetPath !== href) {
-      event.preventDefault();
-      router.push(targetPath);
-    }
+    router.push(targetPath);
   };
 
   return (
-    <nav aria-label={a11y.languageSwitcher}>
-      <ul className="flex items-center gap-1">
-        {locales.map((target) => {
-          const active = target === locale;
-          const label =
-            target === "es" ? a11y.switchToSpanish : a11y.switchToEnglish;
-
-          return (
-            <li key={target}>
-              <Link
-                href={switchLocalePath(currentPath, target)}
-                hrefLang={target}
-                lang={target}
-                aria-label={`${target.toUpperCase()} — ${label}`}
-                aria-current={active ? "page" : undefined}
-                onClick={(event) => handleClick(event, target)}
-                className={[
-                  "inline-flex min-h-11 min-w-11 items-center justify-center rounded-full px-2.5 text-[0.7rem] font-semibold tracking-[0.18em] transition-colors",
-                  active
-                    ? "bg-blue text-cream"
-                    : tone === "light"
-                      ? "text-cream hover:bg-cream/15"
-                      : "text-blue hover:bg-blue/10",
-                ].join(" ")}
-              >
-                {target.toUpperCase()}
-                <span className="sr-only"> · {label}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+    <div
+      className={["relative inline-flex shrink-0 items-center", className]
+        .join(" ")
+        .trim()}
+    >
+      <select
+        defaultValue={locale}
+        onChange={handleChange}
+        aria-label={a11y.languageSwitcher}
+        className={[
+          "min-h-11 min-w-24 appearance-none rounded-full border py-2 pl-4 pr-9 text-[0.75rem] font-semibold uppercase tracking-[0.08em] transition-colors",
+          light
+            ? "border-cream/40 bg-transparent text-cream hover:border-cream focus-visible:border-cream"
+            : "border-blue/30 bg-transparent text-blue hover:border-blue focus-visible:border-blue",
+        ].join(" ")}
+      >
+        {locales.map((target) => (
+          <option
+            key={target}
+            value={target}
+            lang={localeHtmlLang[target]}
+            aria-label={localeNames[target]}
+            className="bg-cream text-blue"
+          >
+            {target.toUpperCase()}
+          </option>
+        ))}
+      </select>
+      <span
+        aria-hidden="true"
+        className={[
+          "pointer-events-none absolute right-3 text-[0.55rem]",
+          light ? "text-cream" : "text-blue",
+        ].join(" ")}
+      >
+        ▾
+      </span>
+    </div>
   );
 }

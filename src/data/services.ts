@@ -40,8 +40,8 @@ export const individualServices: ServiceGroup[] = [
       {
         id: "intuitive-talk-therapy",
         name: {
-          en: "Intuitive Talk Therapy",
-          es: "Terapia conversacional intuitiva",
+          en: "Other Intuitive Talk Therapy",
+          es: "Otra terapia conversacional intuitiva",
         },
         description: {
           en: "Conversation that follows your pace. We make meaning together without diagnosing, rushing or forcing a narrative.",
@@ -129,37 +129,13 @@ export const individualServices: ServiceGroup[] = [
 export const workshopTopics: ServiceItem[] = [
   {
     id: "sexual-education",
-    name: { en: "Positive sexual education", es: "Educación sexual positiva" },
-    description: {
-      en: "Consent, pleasure, anatomy, boundaries and communication, taught without shame and adapted to each community.",
-      es: "Consentimiento, placer, anatomía, límites y comunicación, enseñados sin vergüenza y adaptados a cada comunidad.",
-    },
-  },
-  {
-    id: "trauma-informed-care",
     name: {
-      en: "Trauma-informed care",
-      es: "Cuidado informado en el trauma",
+      en: "Sex education and themes surrounding sexuality",
+      es: "Educación sexual y temas que rodean la sexualidad",
     },
     description: {
-      en: "Practical tools to recognize triggers, regulate the nervous system and support survivors with dignity.",
-      es: "Herramientas prácticas para reconocer detonantes, regular el sistema nervioso y acompañar a sobrevivientes con dignidad.",
-    },
-  },
-  {
-    id: "somatic-education",
-    name: { en: "Somatic education", es: "Educación somática" },
-    description: {
-      en: "Breath, movement and body literacy as everyday resources for safety and self-trust.",
-      es: "Respiración, movimiento y alfabetización corporal como recursos cotidianos para la seguridad y la confianza en una misma.",
-    },
-  },
-  {
-    id: "community-dialogue",
-    name: { en: "Community dialogue", es: "Diálogo comunitario" },
-    description: {
-      en: "Facilitated circles where families, educators and neighbors can talk about sexuality and healing without fear.",
-      es: "Círculos facilitados donde familias, educadores y vecinos pueden hablar de sexualidad y sanación sin miedo.",
+      en: "Workshops on sex education and other themes surrounding sexuality.",
+      es: "Talleres sobre educación sexual y otros temas que rodean la sexualidad.",
     },
   },
 ];

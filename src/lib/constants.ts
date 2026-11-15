@@ -4,8 +4,14 @@ export const DONATE_URL =
 
 export const CONTACT_EMAIL = "info@munayinaction.org";
 
-export const INSTAGRAM_URL = "https://www.instagram.com/munayfoundation";
-export const INSTAGRAM_HANDLE = "@munayfoundation";
+export const INSTAGRAM_URL = "https://www.instagram.com/munayinaction";
+export const INSTAGRAM_HANDLE = "@munayinaction";
+
+export const FACEBOOK_URL =
+  "https://www.facebook.com/profile.php?id=61596609836361";
+
+/** Public company page, not the admin dashboard URL from the source doc. */
+export const LINKEDIN_URL = "https://www.linkedin.com/company/146761748/";
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://munayinaction.org";

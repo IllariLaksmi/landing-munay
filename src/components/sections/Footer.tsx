@@ -2,14 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/types/dictionary";
 import type { Locale } from "@/lib/i18n";
-import {
-  CONTACT_EMAIL,
-  INSTAGRAM_HANDLE,
-  INSTAGRAM_URL,
-  navHref,
-} from "@/lib/constants";
+import { CONTACT_EMAIL, navHref } from "@/lib/constants";
 import { Cantuta, LeafBranch } from "@/components/ui/BrandShapes";
 import { DonateButton } from "@/components/ui/DonateButton";
+import { SocialLinks } from "@/components/ui/SocialLinks";
 import { SubscribeForm } from "@/components/sections/SubscribeForm";
 
 interface FooterProps {
@@ -94,22 +90,21 @@ export function Footer({ footer, subscribe, a11y, nav, locale }: FooterProps) {
                   {CONTACT_EMAIL}
                 </a>
               </li>
-              <li>
-                <a
-                  href={INSTAGRAM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${footer.instagramLabel}: ${INSTAGRAM_HANDLE}. ${a11y.externalLink}`}
-                  className="inline-flex min-h-6 items-center gap-2 text-sm text-cream underline-offset-4 hover:underline"
-                >
-                  {INSTAGRAM_HANDLE}
-                  <span aria-hidden="true" className="text-base">
-                    ↗
-                  </span>
-                  <span className="sr-only">({a11y.externalLink})</span>
-                </a>
-              </li>
             </ul>
+
+            <h2 className="mt-9 text-[0.62rem] font-semibold uppercase tracking-[0.22em] text-cream/85">
+              {footer.followLabel}
+            </h2>
+            <SocialLinks
+              labels={{
+                instagram: footer.instagramLabel,
+                facebook: footer.facebookLabel,
+                linkedin: footer.linkedinLabel,
+              }}
+              a11y={a11y}
+              tone="light"
+              className="mt-4"
+            />
 
             <h2 className="mt-9 text-[0.62rem] font-semibold uppercase tracking-[0.22em] text-cream/85">
               {footer.legalLabel}
