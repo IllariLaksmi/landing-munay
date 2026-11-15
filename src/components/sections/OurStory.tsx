@@ -78,9 +78,11 @@ export function OurStory({ dict, locale }: OurStoryProps) {
                 <p className="relative mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-cream/75">
                   {founder.role}
                 </p>
-                <p className="relative mt-4 text-sm leading-relaxed text-cream/90">
-                  {founder.bio}
-                </p>
+                <div className="relative mt-4 space-y-3 text-sm leading-relaxed text-cream/90">
+                  {founder.bio.split("\n\n").map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                  ))}
+                </div>
                 <Link
                   href={`/${locale}/about#team`}
                   className="relative mt-6 inline-flex min-h-11 items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-cream underline underline-offset-4 hover:decoration-2"

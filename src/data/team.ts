@@ -26,12 +26,12 @@ export const team: TeamMember[] = [
     name: "Dr. Estefanía Simich Muñoz",
     founder: true,
     role: {
-      en: "Founder & Executive Director",
-      es: "Fundadora y directora ejecutiva",
+      en: "Founder",
+      es: "Fundadora",
     },
     bio: {
-      en: "Dr. Estefanía Simich Muñoz is a Peruvian educator, researcher and advocate for positive sexuality. Her work centers the intersection of migration and sexuality, and the ways displacement shapes intimacy, identity and belonging. After years of accompanying people who had no affordable, culturally rooted space to talk about their bodies, she founded Munay in 2026 to turn that gap into a place of care. Her practice is trauma-informed, community-led and deeply rooted in Andean reciprocity.",
-      es: "La Dra. Estefanía Simich Muñoz es educadora, investigadora y defensora de la sexualidad positiva peruana. Su trabajo sitúa la intersección entre migración y sexualidad, y las formas en que el desplazamiento moldea la intimidad, la identidad y la pertenencia. Tras años acompañando a personas que no tenían un espacio accesible y culturalmente arraigado para hablar de sus cuerpos, fundó Munay en 2026 para convertir esa brecha en un lugar de cuidado. Su práctica está informada en el trauma, es liderada por la comunidad y está profundamente enraizada en la reciprocidad andina.",
+      en: "Dr. Estefanía Simich Muñoz has worked across national and international communities to advocate for a sex positive approach to sexuality education and sexual healing following severe trauma. Her dedication to supporting others also shapes her community-based work, teaching, and research on the intersection of migration and sexuality.",
+      es: "La Dra. Estefanía Simich Muñoz ha trabajado con comunidades nacionales e internacionales para abogar por un enfoque sexo positivo de la educación sexual y la sanación sexual tras trauma severo. Su dedicación a apoyar a otras personas también da forma a su trabajo comunitario, la enseñanza y la investigación sobre la intersección entre migración y sexualidad.",
     },
     photoStatus: "pending",
   },
@@ -43,8 +43,8 @@ export const team: TeamMember[] = [
       es: "Operaciones · Yoga RYT-200 · Maestra de Reiki y lectora intuitiva",
     },
     bio: {
-      en: "Ivy Rueda holds Munay's operations with the same care she brings to the mat. A certified Yoga teacher (RYT-200), Reiki Master and intuitive reader, she blends grounding movement, energy work and practical organization. Her role is to make sure every gathering feels held: from the first email to the last cup of tea. She believes that care is in the details, and that a well-held space is itself a form of healing.",
-      es: "Ivy Rueda sostiene las operaciones de Munay con el mismo cuidado que lleva a la esterilla. Profesora de Yoga certificada (RYT-200), maestra de Reiki y lectora intuitiva, combina movimiento enraizante, trabajo energético y organización práctica. Su rol es asegurar que cada encuentro se sienta sostenido: desde el primer correo hasta la última taza de té. Cree que el cuidado está en los detalles y que un espacio bien sostenido es, en sí mismo, una forma de sanación.",
+      en: "Ivy currently serves as Vice President of Operations for Pachamama Retreat, Training and Healing Center, where she brings more than 15 years of experience in the corporate world working with Fortune-ranked clients at a global top-tier communications agency. In this prior role, she honed leadership skills, strategic thinking, and the ability to navigate complex challenges. However, after years of working in high-pressure environments, Ivy felt a calling to explore a more meaningful and balanced path. In this spiritual journey, she has lived life-changing experiences such as Andean energy medicine and shamanism in Peru (her second home), plant medicine in Colombia (where she was born) and sacred cacao from Guatemala.\n\nIvy is a Registered Yoga Teacher (RYT) with a 200-hour certification. She is also trained in the Usui Shiki Ryoho lineage as a Reiki Master and is an intuitive Tarot reader – a gift passed down from her maternal lineage.",
+      es: "Actualmente, Ivy se desempeña como Vicepresidenta de Operaciones de Pachamama Retreat, Training and Healing Center, donde aporta más de 15 años de experiencia en el mundo corporativo trabajando con clientes del ranking Fortune en una agencia de comunicaciones líder a nivel global. En ese rol previo perfeccionó habilidades de liderazgo, pensamiento estratégico y la capacidad de navegar desafíos complejos. Sin embargo, tras años en entornos de alta presión, Ivy sintió el llamado a explorar un camino más significativo y equilibrado. En este viaje espiritual ha vivido experiencias transformadoras como la medicina energética andina y el chamanismo en Perú (su segundo hogar), la medicina de plantas en Colombia (donde nació) y el cacao sagrado de Guatemala.\n\nIvy es profesora de yoga registrada (RYT) con certificación de 200 horas. También está formada en el linaje Usui Shiki Ryoho como maestra de Reiki y es lectora intuitiva de Tarot, un don heredado de su linaje materno.",
     },
     photoStatus: "pending",
   },

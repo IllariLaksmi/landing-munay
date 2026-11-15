@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n";
-import {
-  CONTACT_EMAIL,
-  INSTAGRAM_HANDLE,
-  INSTAGRAM_URL,
-} from "@/lib/constants";
+import { CONTACT_EMAIL } from "@/lib/constants";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { SocialLinks } from "@/components/ui/SocialLinks";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { DonateBanner } from "@/components/sections/DonateBanner";
 
@@ -91,20 +88,19 @@ export default async function ContactPage({
                 </li>
                 <li>
                   <p className="text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-cream/80">
-                    {dict.footer.instagramLabel}
+                    {dict.footer.followLabel}
                   </p>
-                  <a
-                    href={INSTAGRAM_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-1 inline-flex min-h-6 items-center gap-2 text-base text-cream underline underline-offset-4 hover:decoration-2"
-                  >
-                    {INSTAGRAM_HANDLE}
-                    <span aria-hidden="true">↗</span>
-                    <span className="sr-only">
-                      ({dict.a11y.externalLink})
-                    </span>
-                  </a>
+                  <SocialLinks
+                    labels={{
+                      instagram: dict.footer.instagramLabel,
+                      facebook: dict.footer.facebookLabel,
+                      linkedin: dict.footer.linkedinLabel,
+                    }}
+                    a11y={dict.a11y}
+                    showLabels
+                    tone="light"
+                    className="mt-3"
+                  />
                 </li>
               </ul>
 

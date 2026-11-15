@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Munay — Amor incondicional en acción",
-    "description": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026 que ofrece educación sexual y sanación somática informadas en el trauma para comunidades desatendidas.",
+    "description": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026 que ofrece servicios centrados en la sexualidad, talleres y retiros de un día para sobrevivientes desatendidas.",
     "ogAlt": "Munay — amor incondicional en acción. Organización sin fines de lucro 501(c)(3)."
   },
   "a11y": {
@@ -13,9 +13,6 @@
     "showSubmenu": "Mostrar submenú de {label}",
     "hideSubmenu": "Ocultar submenú de {label}",
     "languageSwitcher": "Cambiar idioma",
-    "switchToSpanish": "Ver esta página en español",
-    "switchToEnglish": "Ver esta página en inglés",
-    "currentLanguage": "Idioma actual",
     "externalLink": "Se abre en una pestaña nueva",
     "backToTop": "Volver arriba"
   },
@@ -27,34 +24,90 @@
         "path": "",
         "label": "Inicio",
         "children": [
-          { "path": "", "hash": "our-story", "label": "Nuestra historia" },
-          { "path": "", "hash": "founder", "label": "Nuestra fundadora" },
-          { "path": "/about", "hash": "nonprofit", "label": "Somos una 501(c)(3)" }
+          {
+            "path": "",
+            "hash": "our-story",
+            "label": "Nuestra historia"
+          },
+          {
+            "path": "",
+            "hash": "founder",
+            "label": "Nuestra fundadora"
+          },
+          {
+            "path": "/about",
+            "hash": "nonprofit",
+            "label": "Somos una 501(c)(3)"
+          }
         ]
       },
       {
         "path": "/about",
         "label": "Nosotros",
         "children": [
-          { "path": "/about", "hash": "mission", "label": "Misión y visión" },
-          { "path": "/about", "hash": "values", "label": "Declaración de valores" },
-          { "path": "/about", "hash": "board", "label": "Junta directiva" },
-          { "path": "/about", "hash": "team", "label": "Nuestro equipo" }
+          {
+            "path": "/about",
+            "hash": "mission",
+            "label": "Misión y visión"
+          },
+          {
+            "path": "/about",
+            "hash": "values",
+            "label": "Declaración de valores"
+          },
+          {
+            "path": "/about",
+            "hash": "board",
+            "label": "Junta directiva"
+          },
+          {
+            "path": "/about",
+            "hash": "team",
+            "label": "Nuestro equipo"
+          }
         ]
       },
       {
         "path": "/programs",
         "label": "Nuestros programas",
         "children": [
-          { "path": "/programs", "hash": "approach", "label": "Enfoque" },
-          { "path": "/programs", "hash": "individual", "label": "Servicios individuales" },
-          { "path": "/programs", "hash": "workshops", "label": "Talleres" },
-          { "path": "/programs", "hash": "retreats", "label": "Retiros de un día" }
+          {
+            "path": "/programs",
+            "hash": "approach",
+            "label": "Enfoque"
+          },
+          {
+            "path": "/programs",
+            "hash": "individual",
+            "label": "Servicios individuales"
+          },
+          {
+            "path": "/programs",
+            "hash": "workshops",
+            "label": "Talleres"
+          },
+          {
+            "path": "/programs",
+            "hash": "retreats",
+            "label": "Retiros de un día"
+          }
         ]
       },
-      { "path": "/calendar", "label": "Calendario", "children": [] },
-      { "path": "/blog", "label": "Blog", "children": [] },
-      { "path": "/contact", "label": "Contacto", "children": [] }
+      {
+        "path": "/calendar",
+        "label": "Calendario",
+        "children": []
+      },
+      {
+        "path": "/blog",
+        "label": "Blog",
+        "children": []
+      },
+      {
+        "path": "/contact",
+        "label": "Contacto",
+        "children": []
+      }
     ],
     "donate": "Donar"
   },
@@ -62,7 +115,7 @@
     "eyebrow": "Organización sin fines de lucro 501(c)(3) · Fundada en 2026",
     "titleLine1": "Amor incondicional,",
     "titleLine2": "en acción.",
-    "subtitle": "Creamos espacios seguros e intencionales de sanación y educación sexual: informados en el trauma, culturalmente arraigados y abiertos a todas las personas.",
+    "subtitle": "Ofrecemos servicios centrados en la sexualidad, talleres y retiros de un día para sobrevivientes desatendidas: accesibles y centrados en la comunidad.",
     "badge": "501(c)(3) Sin fines de lucro",
     "primaryCta": "Conoce nuestros programas",
     "secondaryCta": "Donar",
@@ -74,9 +127,8 @@
       "eyebrow": "Nuestra historia",
       "title": "Nacimos de una brecha que ya no podíamos ignorar.",
       "paragraphs": [
-        "Munay nació en 2026 como respuesta a una brecha profunda en los servicios para comunidades desatendidas. A sobrevivientes de abuso, agresión, trata, tortura y violencia de pareja se les dejaba con demasiada frecuencia sin un cuidado accesible y culturalmente arraigado, y con pocos lugares donde hablar de sus cuerpos sin vergüenza.",
-        "Construimos el espacio que deseábamos que existiera: uno donde la educación sexual positiva se encuentra con la sanación somática y holística, donde el consentimiento no es una nota al pie sino el fundamento, y donde la sabiduría andina se honra en lugar de extraerse.",
-        "El nombre Munay significa amor incondicional en quechua. Para nosotras, ese amor es una práctica: estar presentes, escuchar y crear las condiciones para que cada persona recuerde su propia capacidad de sanar."
+        "Munay nació en 2026 desde una profunda comprensión de las necesidades de nuestra comunidad desatendida en torno a la sanación sexual y la educación sexual.",
+        "Al abordar la brecha en estos servicios, creamos espacios de sanación intencionales para aprender y sanar en comunidad."
       ],
       "founderEyebrow": "Nuestra fundadora",
       "founderLink": "Conoce al equipo completo",
@@ -85,14 +137,14 @@
     },
     "programs": {
       "eyebrow": "Lo que ofrecemos",
-      "title": "Tres puertas hacia el cuidado.",
-      "intro": "Cada programa está diseñado para la vida real: accesible, guiado por el consentimiento y sostenido por facilitadoras que comprenden el trauma, la cultura y la comunidad.",
+      "title": "Cómo abordamos la sanación sexual y la educación sexual.",
+      "intro": "Talleres, servicios individuales y retiros de un día para comunidades desatendidas.",
       "link": "Explorar todos los programas"
     },
     "event": {
       "eyebrow": "Próximo evento comunitario",
       "title": "Zumbatón",
-      "body": "Nuestro primer encuentro comunitario: una sesión de baile alegre y para todos los niveles que celebra el movimiento como camino de sanación. Fecha por confirmar: suscríbete y te avisaremos en cuanto se publique.",
+      "body": "Nuestro primer evento comunitario. La fecha aún está por confirmar: suscríbete y te avisaremos en cuanto se anuncie.",
       "link": "Ver el calendario"
     },
     "donate": {
@@ -106,7 +158,7 @@
   "subscribe": {
     "eyebrow": "Mantente cerca",
     "title": "Sé la primera en enterarte.",
-    "body": "Únete a nuestro boletín para conocer fechas de eventos, anuncios de talleres y notas de la comunidad. Sin ruido ni presión semanal: solo lo que importa.",
+    "body": "Únete a nuestro boletín para recibir novedades sobre eventos, talleres y el trabajo de Munay.",
     "emailLabel": "Correo electrónico",
     "emailPlaceholder": "tu@correo.com",
     "submit": "Suscribirme",
@@ -117,18 +169,16 @@
   "about": {
     "eyebrow": "Sobre Munay",
     "title": "Cuidado arraigado, accesible y compartido.",
-    "intro": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026. Acompañamos a comunidades desatendidas a través de la educación sexual y la sanación somática y holística informada en el trauma.",
+    "intro": "Munay es una organización sin fines de lucro 501(c)(3) fundada en 2026. Ofrecemos servicios centrados en la sexualidad, talleres y retiros de un día para sobrevivientes desatendidas.",
     "missionTitle": "Misión",
     "missionBody": [
-      "Munay ofrece servicios accesibles, talleres y retiros de un día para sobrevivientes de abuso sexual, agresión, trata, tortura y violencia de pareja, así como para las comunidades que les sostienen.",
-      "Combinamos educación sexual positiva con prácticas somáticas, holísticas y ancestrales para que la sanación no sea un lujo reservado a unas pocas personas. Cada espacio está guiado por el consentimiento, arraigado en la cultura y diseñado junto a las personas a quienes servimos.",
-      "No reemplazamos la atención clínica ni legal. Caminamos al lado de las personas mientras acceden a ella y construimos alternativas donde no existen."
+      "Ofrecemos servicios accesibles centrados en la sexualidad, talleres y retiros de un día para sobrevivientes desatendidas de abuso sexual, agresión, trata, tortura y violencia de pareja.",
+      "A través de un acompañamiento personalizado, ayudamos a las personas a reconectar con sus cuerpos y a fomentar una sanación encarnada. Con la accesibilidad y el cuidado comunitario en el centro, ofrecemos prácticas holísticas y educación que empoderan a las sobrevivientes para recuperar su sentido de sí mismas y cultivar una relación más armoniosa con su sexualidad."
     ],
     "visionTitle": "Visión",
     "visionBody": [
-      "Imaginamos un mundo donde cada persona pueda habitar un cuerpo que se sienta seguro, hablar de sexualidad sin vergüenza y recibir un cuidado que honre su cultura, su historia y su ser completo.",
-      "Nuestra visión es interseccional: la sanación está entrelazada con la migración, la raza, el género, la clase, la discapacidad y la tierra. Trabajamos por un futuro donde las comunidades no solo reciban servicios, sino que lideren la creación de su propio cuidado.",
-      "Vemos a Munay como una pequeña parte de un movimiento mucho más grande: uno donde el amor incondicional se vuelve práctico, colectivo y liberador."
+      "Un mundo donde todas las personas, especialmente quienes provienen de comunidades marginadas y desatendidas, tengan el apoyo, las herramientas y la guía compasiva necesarios para sanar, reconectar y recuperar su plenitud.",
+      "Imaginamos una comunidad donde la sanación sea interseccional, culturalmente arraigada y basada en la convicción de que toda persona merece sentirse segura en su cuerpo y empoderada en sus relaciones."
     ],
     "valuesTitle": "Nuestros valores",
     "valuesIntro": "Ocho compromisos guían la forma en que sostenemos el espacio, tomamos decisiones y nos cuidamos entre nosotras.",
@@ -142,38 +192,36 @@
     "boardPendingName": "Nombre por confirmar",
     "nonprofitEyebrow": "Transparencia",
     "nonprofitTitle": "Somos una 501(c)(3).",
-    "nonprofitBody": "Munay es una organización sin fines de lucro constituida bajo la sección 501(c)(3) del Código de Rentas Internas de Estados Unidos. Nuestros recursos se destinan íntegramente a nuestra misión: ofrecer educación sexual y acompañamiento somático accesible para comunidades históricamente desatendidas. Publicaremos aquí nuestro número de identificación fiscal (EIN) y nuestros estados financieros anuales en cuanto estén disponibles."
+    "nonprofitBody": "Munay es una organización sin fines de lucro constituida bajo la sección 501(c)(3) del Código de Rentas Internas de Estados Unidos."
   },
   "programs": {
     "eyebrow": "Programas",
-    "title": "Sanación que te encuentra donde estás.",
-    "intro": "Nuestro enfoque es holístico, centrado en la comunidad y pensado para personas que han sido desatendidas por el cuidado tradicional. Estos son los principios que dan forma a cada propuesta.",
+    "title": "Cómo abordamos la sanación sexual y la educación sexual.",
+    "intro": "Nuestros programas incluyen talleres, servicios individuales y retiros de un día.",
     "principlesTitle": "Cómo trabajamos",
     "principles": [
       {
-        "title": "Informados en el trauma por diseño",
-        "description": "El consentimiento, la previsibilidad, la elección y la seguridad están integrados en cada sesión. Nunca se te exige compartir más de lo que deseas."
+        "title": "Holísticos y accesibles",
+        "description": "Servicios de sanación holísticos y accesibles diseñados para la persona en su totalidad."
       },
       {
-        "title": "Culturalmente arraigados",
-        "description": "Honramos la sabiduría andina, las historias de migración y las muchas formas en que las personas construyen sentido. El cuidado debe sentirse como hogar, no como un idioma extranjero."
+        "title": "Centrados en la comunidad",
+        "description": "Programación centrada en las voces, necesidades y sabiduría de las comunidades desatendidas."
       },
       {
-        "title": "Accesibles y liderados por la comunidad",
-        "description": "Opciones de pago proporcional, alianzas locales y la voz de la comunidad dan forma a lo que ofrecemos y a quién puede acceder."
+        "title": "Encarnados e integrados",
+        "description": "Sanación encarnada y bienestar sexual integrados como parte central, no complementaria, de la recuperación."
       }
     ],
     "workshopsTitle": "Talleres",
-    "workshopsIntro": "Sesiones participativas y sin vergüenza sobre educación sexual y los temas que rodean la sexualidad. Adaptamos cada taller a la edad, el idioma y la realidad vivida del grupo.",
+    "workshopsIntro": "Talleres sobre educación sexual y otros temas que rodean la sexualidad.",
     "individualTitle": "Servicios individuales",
-    "individualIntro": "Cuidado individual para la mente, el cuerpo y el alma. Elige el camino que se sienta correcto para ti o escríbenos y te ayudaremos a encontrarlo.",
+    "individualIntro": "Servicios individuales de sanación de la mente, el cuerpo y el alma.",
     "tabListLabel": "Categorías de servicios individuales",
     "retreatsTitle": "Retiros de un día",
-    "retreatsIntro": "Un día completo para bajar el ritmo, volver al cuerpo y sentirte sostenida por la comunidad.",
+    "retreatsIntro": "Retiros de un día para sobrevivientes desatendidas.",
     "retreatsBody": [
-      "Nuestros retiros de un día tejen movimiento suave, prácticas somáticas, comida compartida y tiempo de quietud en la naturaleza. Están pensados para personas que necesitan descanso pero no pueden alejarse una semana completa.",
-      "Cada retiro tiene un grupo pequeño, acuerdos claros y facilitadoras formadas en cuidado informado en el trauma. No se necesita experiencia previa.",
-      "Las fechas se anuncian a medida que se confirman. Si deseas llevar un retiro a tu comunidad u organización, nos encantaría escucharte."
+      "Los retiros de un día forman parte de los servicios accesibles que ofrecemos a sobrevivientes desatendidas de abuso sexual, agresión, trata, tortura y violencia de pareja."
     ],
     "retreatsCta": "Consulta las próximas fechas",
     "retreatsContact": "Contáctanos"
@@ -189,7 +237,7 @@
   "blog": {
     "eyebrow": "Blog",
     "title": "Notas desde el círculo.",
-    "intro": "Historias, reflexiones y novedades de nuestros eventos comunitarios, talleres y del trabajo de construir Munay.",
+    "intro": "Novedades de nuestros eventos comunitarios, talleres y del trabajo de construir Munay.",
     "readMore": "Leer la historia",
     "backToBlog": "Volver al blog",
     "publishedOn": "Publicado el",
@@ -199,7 +247,7 @@
   "contact": {
     "eyebrow": "Contacto",
     "title": "Hablemos.",
-    "intro": "Ya sea que estés buscando cuidado, quieras llevar un taller a tu comunidad o simplemente conocer más, una persona lee cada mensaje. Respondemos en un máximo de 48 horas hábiles.",
+    "intro": "Ya sea que estés buscando cuidado, quieras llevar un taller a tu comunidad o simplemente conocer más, escríbenos.",
     "directTitle": "Escríbenos directamente",
     "directBody": "También puedes contactarnos por correo electrónico. Nunca compartiremos tu información.",
     "nameLabel": "Nombre",
@@ -209,18 +257,36 @@
     "subjectLabel": "Asunto / Interés",
     "subjectPlaceholder": "Elige una opción",
     "subjects": [
-      { "value": "general", "label": "Consulta general" },
-      { "value": "programs", "label": "Programas y servicios" },
-      { "value": "workshops", "label": "Talleres" },
-      { "value": "retreats", "label": "Retiros de un día" },
-      { "value": "donations", "label": "Donaciones y alianzas" },
-      { "value": "media", "label": "Prensa y medios" }
+      {
+        "value": "general",
+        "label": "Consulta general"
+      },
+      {
+        "value": "programs",
+        "label": "Programas y servicios"
+      },
+      {
+        "value": "workshops",
+        "label": "Talleres"
+      },
+      {
+        "value": "retreats",
+        "label": "Retiros de un día"
+      },
+      {
+        "value": "donations",
+        "label": "Donaciones y alianzas"
+      },
+      {
+        "value": "media",
+        "label": "Prensa y medios"
+      }
     ],
     "messageLabel": "Mensaje",
     "messagePlaceholder": "Comparte lo que te gustaría que sepamos…",
     "submit": "Enviar mensaje",
     "successTitle": "Gracias por escribirnos.",
-    "successBody": "Hemos recibido tu mensaje y te responderemos en un máximo de 48 horas hábiles.",
+    "successBody": "Hemos recibido tu mensaje y te responderemos lo antes posible.",
     "errorRequired": "Este campo es obligatorio.",
     "errorEmail": "Escribe un correo electrónico válido.",
     "errorSubject": "Elige un asunto.",
@@ -234,7 +300,7 @@
     "exploreLabel": "Explorar",
     "contactLabel": "Contacto",
     "email": "info@munayinaction.org",
-    "instagram": "@munayfoundation",
+    "instagram": "@munayinaction",
     "instagramLabel": "Sigue a Munay en Instagram",
     "donate": "Donar",
     "legalLabel": "Legal",
@@ -242,7 +308,10 @@
     "terms": "Términos",
     "cookies": "Cookies",
     "copyright": "© 2026 Munay. Todos los derechos reservados.",
-    "madeWith": "Hecho con amor, en reciprocidad."
+    "madeWith": "Hecho con amor, en reciprocidad.",
+    "followLabel": "Síguenos",
+    "facebookLabel": "Sigue a Munay en Facebook",
+    "linkedinLabel": "Conecta con Munay en LinkedIn"
   },
   "legal": {
     "metaTitle": "Legal — Munay",

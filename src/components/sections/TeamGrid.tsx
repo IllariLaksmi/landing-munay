@@ -66,9 +66,11 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
                 <p className="mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-blue/90">
                   {member.role}
                 </p>
-                <p className="mt-4 max-w-xl text-sm leading-relaxed text-blue">
-                  {member.bio}
-                </p>
+                <div className="mt-4 max-w-xl space-y-3 text-sm leading-relaxed text-blue">
+                  {member.bio.split("\n\n").map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                  ))}
+                </div>
               </div>
             </article>
           ))}

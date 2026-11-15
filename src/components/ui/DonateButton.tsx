@@ -4,7 +4,7 @@ import type { Dictionary } from "@/types/dictionary";
 type Variant = "primary" | "accent" | "outline" | "cream";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-blue text-cream hover:bg-blue/90",
+  primary: "bg-yellow text-blue hover:bg-cream",
   accent: "bg-yellow text-blue hover:bg-cream",
   outline:
     "border border-blue/40 bg-transparent text-blue hover:border-blue hover:bg-blue/5",
