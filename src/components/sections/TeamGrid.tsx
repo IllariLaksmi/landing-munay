@@ -43,24 +43,15 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-12 sm:grid-cols-2 lg:mt-16 lg:gap-10">
+        <div className="mt-12 grid gap-12 lg:mt-16 lg:gap-16">
           {team.map((member) => (
-            <article
-              key={member.id}
-              className={member.founder ? "sm:col-span-2" : undefined}
-            >
-              <div
-                className={
-                  member.founder
-                    ? "grid gap-7 lg:grid-cols-12 lg:items-stretch lg:gap-10"
-                    : undefined
-                }
-              >
+            <article key={member.id}>
+              <div className="grid gap-7 lg:grid-cols-12 lg:items-stretch lg:gap-10">
                 <figure
                   className={
                     member.founder
                       ? "relative lg:col-span-5 lg:h-full"
-                      : "relative"
+                      : "relative lg:col-span-5 lg:self-start"
                   }
                 >
                   <TeamPortrait
@@ -84,20 +75,14 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
                   ) : null}
                 </figure>
 
-                <div
-                  className={
-                    member.founder
-                      ? "border-t-2 border-blue/20 pt-5 lg:col-span-7 lg:mt-0"
-                      : "mt-7 border-t-2 border-blue/20 pt-5"
-                  }
-                >
+                <div className="border-t-2 border-blue/20 pt-5 lg:col-span-7 lg:mt-0">
                   <h3 className="font-display text-4xl leading-[0.9] text-blue sm:text-5xl">
                     {member.name}
                   </h3>
                   <p className="mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-blue/90">
                     {member.role}
                   </p>
-                  <div className="mt-4 max-w-xl space-y-3 text-sm leading-relaxed text-blue">
+                  <div className="mt-4 max-w-2xl space-y-3 text-sm leading-relaxed text-blue sm:text-base">
                     {member.bio.split("\n\n").map((paragraph) => (
                       <p key={paragraph.slice(0, 48)}>{paragraph}</p>
                     ))}
