@@ -138,10 +138,6 @@
     border-radius: 58% 42% 38% 62% / 54% 46% 54% 46%;
   }
 
-  .blob-photo {
-    border-radius: 52% 48% 45% 55% / 48% 56% 44% 52%;
-  }
-
   .sticker {
     display: inline-flex;
     align-items: center;
