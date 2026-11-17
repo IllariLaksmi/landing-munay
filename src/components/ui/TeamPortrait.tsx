@@ -35,7 +35,8 @@ export function TeamPortrait({
       <PhotoPending
         label={pendingLabel}
         note={pendingNote}
-        className={`${aspectClassName} ${className}`}
+        className={className}
+        aspectClassName={aspectClassName}
       />
     );
   }

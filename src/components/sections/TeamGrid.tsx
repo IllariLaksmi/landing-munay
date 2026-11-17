@@ -74,7 +74,7 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
                     aspectClassName={
                       member.founder
                         ? "aspect-[4/3] lg:aspect-auto"
-                        : "aspect-[3/4]"
+                        : "aspect-[4/3]"
                     }
                   />
                   {member.founder ? (

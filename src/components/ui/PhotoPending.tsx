@@ -7,6 +7,8 @@ interface PhotoPendingProps {
   /** Optional supporting line shown under the label. */
   note?: string;
   className?: string;
+  /** Frame shape; defaults to the portrait card ratio. */
+  aspectClassName?: string;
 }
 
 /**
@@ -15,11 +17,17 @@ interface PhotoPendingProps {
  * It deliberately contains no person, silhouette or stock photo: only the
  * brand graphic system plus a visible, translated label.
  */
-export function PhotoPending({ label, note, className = "" }: PhotoPendingProps) {
+export function PhotoPending({
+  label,
+  note,
+  className = "",
+  aspectClassName = "aspect-[3/4]",
+}: PhotoPendingProps) {
   return (
     <div
       className={[
-        "relative isolate aspect-[3/4] overflow-hidden rounded-[2rem] bg-blue",
+        "relative isolate overflow-hidden rounded-[2rem] bg-blue",
+        aspectClassName,
         className,
       ]
         .join(" ")
