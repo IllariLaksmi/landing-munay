@@ -29,17 +29,17 @@ export function OurStory({ dict, locale }: OurStoryProps) {
       />
 
       <div className="relative mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12 xl:px-16">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
-          <div className="lg:col-span-7">
+        <div className="grid gap-12 lg:gap-14">
+          <div className="max-w-3xl">
             <p className="eyebrow text-blue/80">{dict.eyebrow}</p>
             <h2
               id="story-title"
-              className="display-balance mt-5 max-w-2xl font-display text-5xl leading-[0.9] text-blue sm:text-6xl lg:text-7xl"
+              className="display-balance mt-5 font-display text-5xl leading-[0.9] text-blue sm:text-6xl lg:text-7xl"
             >
               {dict.title}
             </h2>
 
-            <div className="mt-8 max-w-2xl space-y-5 text-base leading-[1.85] text-blue sm:text-lg">
+            <div className="mt-8 space-y-5 text-base leading-[1.85] text-blue sm:text-lg">
               {dict.paragraphs.map((paragraph) => (
                 <p key={paragraph.slice(0, 48)}>{paragraph}</p>
               ))}
@@ -50,9 +50,8 @@ export function OurStory({ dict, locale }: OurStoryProps) {
             <aside
               id="founder"
               aria-labelledby="founder-spotlight-title"
-              className="lg:col-span-5"
             >
-              <div className="relative overflow-hidden rounded-[2rem] bg-blue p-5 text-cream sm:p-7">
+              <div className="relative overflow-hidden rounded-[2rem] bg-blue p-5 text-cream sm:p-7 lg:p-10">
                 <Cantuta
                   tone="purple"
                   className="absolute -right-8 -top-6 h-32 w-auto rotate-12 opacity-30"
@@ -61,37 +60,42 @@ export function OurStory({ dict, locale }: OurStoryProps) {
                   {dict.founderEyebrow}
                 </p>
 
-                <figure className="relative mt-5">
-                  <TeamPortrait
-                    photo={founder.photo}
-                    alt={`${founder.name} — ${founder.role}`}
-                    pendingLabel={dict.founderPhotoLabel}
-                    pendingNote={dict.founderPhotoNote}
-                    className="shadow-soft"
-                  />
-                </figure>
+                <div className="relative mt-6 grid gap-8 lg:grid-cols-12 lg:items-start lg:gap-10">
+                  <figure className="lg:col-span-4 lg:h-full">
+                    <TeamPortrait
+                      photo={founder.photo}
+                      alt={`${founder.name} — ${founder.role}`}
+                      pendingLabel={dict.founderPhotoLabel}
+                      pendingNote={dict.founderPhotoNote}
+                      className="shadow-soft lg:h-full"
+                      aspectClassName="aspect-[4/3] lg:aspect-auto"
+                    />
+                  </figure>
 
-                <h3
-                  id="founder-spotlight-title"
-                  className="relative mt-6 font-display text-4xl leading-[0.9] text-cream sm:text-5xl"
-                >
-                  {founder.name}
-                </h3>
-                <p className="relative mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-cream/75">
-                  {founder.role}
-                </p>
-                <div className="relative mt-4 space-y-3 text-sm leading-relaxed text-cream/90">
-                  {founder.bio.split("\n\n").map((paragraph) => (
-                    <p key={paragraph.slice(0, 48)}>{paragraph}</p>
-                  ))}
+                  <div className="lg:col-span-8">
+                    <h3
+                      id="founder-spotlight-title"
+                      className="font-display text-4xl leading-[0.9] text-cream sm:text-5xl"
+                    >
+                      {founder.name}
+                    </h3>
+                    <p className="mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-cream/75">
+                      {founder.role}
+                    </p>
+                    <div className="mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-cream/90 sm:text-base">
+                      {founder.bio.split("\n\n").map((paragraph) => (
+                        <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                      ))}
+                    </div>
+                    <Link
+                      href={`/${locale}/about#team`}
+                      className="mt-6 inline-flex min-h-11 items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-cream underline underline-offset-4 hover:decoration-2"
+                    >
+                      {dict.founderLink}
+                      <span aria-hidden="true">→</span>
+                    </Link>
+                  </div>
                 </div>
-                <Link
-                  href={`/${locale}/about#team`}
-                  className="relative mt-6 inline-flex min-h-11 items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-cream underline underline-offset-4 hover:decoration-2"
-                >
-                  {dict.founderLink}
-                  <span aria-hidden="true">→</span>
-                </Link>
               </div>
             </aside>
           ) : null}

@@ -84,10 +84,6 @@ export function HomeHero({ hero, a11y, locale }: HomeHeroProps) {
               className="object-contain"
             />
           </div>
-          <Cantuta
-            tone="pink"
-            className="absolute -bottom-10 -left-6 h-32 w-auto -rotate-12 sm:h-40"
-          />
           <LeafBranch
             tone="yellow"
             className="absolute -right-6 -top-8 h-16 w-auto rotate-12 sm:h-20"
