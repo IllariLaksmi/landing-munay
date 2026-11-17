@@ -4,11 +4,11 @@ import { notFound } from "next/navigation";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n";
 import {
-  getIndividualServices,
+  getServiceGroups,
   getWorkshopTopics,
 } from "@/data/services";
 import { PageHeader } from "@/components/ui/PageHeader";
-import { IndividualServicesTabs } from "@/components/sections/IndividualServicesTabs";
+import { ServicesTabs } from "@/components/sections/ServicesTabs";
 import { DonateBanner } from "@/components/sections/DonateBanner";
 import { Cantuta, Cloud, LeafBranch } from "@/components/ui/BrandShapes";
 
@@ -49,7 +49,7 @@ export default async function ProgramsPage({
   if (!isLocale(locale)) notFound();
 
   const dict = await getDictionary(locale);
-  const groups = getIndividualServices(locale);
+  const groups = getServiceGroups(locale);
   const topics = getWorkshopTopics(locale);
 
   return (
@@ -157,8 +157,8 @@ export default async function ProgramsPage({
       </section>
 
       <section
-        id="individual"
-        aria-labelledby="individual-title"
+        id="services"
+        aria-labelledby="services-title"
         className="border-t border-blue/15 bg-cream py-20 sm:py-24"
       >
         <div className="mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12 xl:px-16">
@@ -168,7 +168,7 @@ export default async function ProgramsPage({
                 {dict.programs.eyebrow}
               </p>
               <h2
-                id="individual-title"
+                id="services-title"
                 className="mt-4 font-display text-5xl leading-[0.9] text-blue sm:text-6xl lg:text-7xl"
               >
                 {dict.programs.individualTitle}
@@ -180,7 +180,7 @@ export default async function ProgramsPage({
           </div>
 
           <div className="mt-10">
-            <IndividualServicesTabs
+            <ServicesTabs
               groups={groups}
               label={dict.programs.tabListLabel}
             />
@@ -210,9 +210,6 @@ export default async function ProgramsPage({
             >
               {dict.programs.retreatsTitle}
             </h2>
-            <p className="pretty mt-5 max-w-xl text-base leading-relaxed text-cream/90 sm:text-lg">
-              {dict.programs.retreatsIntro}
-            </p>
           </div>
 
           <div className="lg:col-span-6">

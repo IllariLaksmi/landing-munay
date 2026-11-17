@@ -37,7 +37,7 @@
           {
             "path": "/about",
             "hash": "nonprofit",
-            "label": "We are a 501(c)(3)"
+            "label": "Transparency"
           }
         ]
       },
@@ -78,8 +78,8 @@
           },
           {
             "path": "/programs",
-            "hash": "individual",
-            "label": "Individual services"
+            "hash": "services",
+            "label": "Services"
           },
           {
             "path": "/programs",
@@ -112,14 +112,13 @@
     "donate": "Donate"
   },
   "hero": {
-    "eyebrow": "501(c)(3) Nonprofit Organization · Founded 2026",
+    "eyebrow": "Founded 2026",
     "titleLine1": "Unconditional love,",
     "titleLine2": "in action.",
-    "subtitle": "We provide sexuality-focused services, workshops and day retreats for underserved survivors — accessible and community-centered.",
-    "badge": "501(c)(3) Nonprofit",
+    "subtitle": "We are a non-profit created to provide intentional spaces for healing and sexual education.",
     "primaryCta": "Explore our programs",
     "secondaryCta": "Donate",
-    "imageAlt": "Soft morning light over a quiet path surrounded by native plants.",
+    "imageAlt": "Illustration of two people holding a flower beneath a sky with hummingbirds and clouds.",
     "scroll": "Scroll to learn more"
   },
   "home": {
@@ -127,8 +126,10 @@
       "eyebrow": "Our story",
       "title": "Born from a gap we could no longer ignore.",
       "paragraphs": [
-        "Munay was born in 2026 from a deep understanding of our underserved community's needs surrounding sexual healing and sex education.",
-        "By addressing the gap in these services, we create intentional healing spaces to learn and heal in community."
+        "Munay was founded in 2026 in response to an identified gap in services for underserved communities.",
+        "Survivors of abuse, sexual assault, sex trafficking, torture and intimate partner sexual violence have difficulty accessing spaces to talk about their bodies and sexuality without shame.",
+        "We built the space we wished existed: one where positive sex education meets holistic healing, where consent is not a footnote but the foundation, and where Andean wisdom is honored.",
+        "Our name Munay means unconditional love in Quechua. For us, that love is a practice: showing up, listening, and creating the space for every person to remember their own capacity to heal."
       ],
       "founderEyebrow": "Founder spotlight",
       "founderLink": "Meet the full team",
@@ -136,9 +137,8 @@
       "founderPhotoNote": "We're updating our founder's portrait."
     },
     "programs": {
-      "eyebrow": "What we offer",
+      "eyebrow": "Our paths for care",
       "title": "How we approach sexual healing and sex education.",
-      "intro": "Workshops, individual services and day retreats for underserved communities.",
       "link": "Explore all programs"
     },
     "event": {
@@ -148,16 +148,16 @@
       "link": "View the calendar"
     },
     "donate": {
-      "eyebrow": "Support the work",
+      "eyebrow": "Support our work",
       "title": "Help us create safe spaces for healing.",
-      "body": "Your donation funds accessible workshops, individual healing services and day retreats for communities that are too often left out. Every contribution helps us keep care within reach.",
+      "body": "Your donation funds accessible workshops, healing services and day retreats for communities that are too often left out. Every contribution helps us keep care within reach.",
       "cta": "Donate through Zeffy",
       "note": "Munay is a 501(c)(3) nonprofit organization."
     }
   },
   "subscribe": {
     "eyebrow": "Stay close",
-    "title": "Be the first to know.",
+    "title": "Stay connected",
     "body": "Join our newsletter for news about events, workshops and Munay's work.",
     "emailLabel": "Email address",
     "emailPlaceholder": "you@example.com",
@@ -181,9 +181,9 @@
       "We envision a community where healing is intersectional, culturally grounded, and rooted in the belief that every person deserves to feel safe in their body and empowered in their relationships."
     ],
     "valuesTitle": "Our values",
-    "valuesIntro": "Eight commitments guide how we hold space, make decisions and care for one another.",
+    "valuesIntro": "Our commitments on how we hold space, make decisions and care for one another.",
     "teamTitle": "Our team",
-    "teamIntro": "The people who hold Munay's space with care, skill and lived experience.",
+    "teamIntro": "We hold Munay's space with care, skill and lived experience.",
     "teamLinkLabel": "Meet the full team",
     "teamPhotoLabel": "Photo coming soon",
     "teamPhotoNote": "We're updating our team photos.",
@@ -192,12 +192,12 @@
     "boardPendingName": "Name to be confirmed",
     "nonprofitEyebrow": "Transparency",
     "nonprofitTitle": "We are a 501(c)(3).",
-    "nonprofitBody": "Munay is a nonprofit organization under section 501(c)(3) of the U.S. Internal Revenue Code."
+    "nonprofitBody": "We are supported by the community and through grants and philanthropic donations."
   },
   "programs": {
     "eyebrow": "Programs",
     "title": "How we approach sexual healing and sex education.",
-    "intro": "Our programs include workshops, individual services and day retreats.",
+    "intro": "Our programs include workshops, services and day retreats.",
     "principlesTitle": "How we work",
     "principles": [
       {
@@ -215,28 +215,28 @@
     ],
     "workshopsTitle": "Workshops",
     "workshopsIntro": "Workshops on sex education and other themes surrounding sexuality.",
-    "individualTitle": "Individual Services",
-    "individualIntro": "Individual services for mind healing, body healing and soul healing.",
-    "tabListLabel": "Individual service categories",
+    "individualTitle": "Services",
+    "individualIntro": "Addressing mind, body and soul healing.",
+    "tabListLabel": "Service categories",
     "retreatsTitle": "Day Retreats",
-    "retreatsIntro": "Day retreats for underserved survivors.",
+    "retreatsIntro": "Day holistic retreats to reconnect, heal and transform.",
     "retreatsBody": [
-      "Day retreats are part of the accessible services we offer to underserved survivors of sexual abuse, assault, trafficking, torture and intimate partner violence."
+      "Day holistic retreats to reconnect, heal and transform, tailored for survivors of sexual abuse, sexual assault, sex trafficking, torture and intimate partner sexual violence."
     ],
     "retreatsCta": "Ask about upcoming dates",
     "retreatsContact": "Contact us"
   },
   "calendar": {
     "eyebrow": "Calendar",
-    "title": "Gather with us.",
-    "intro": "Community events, workshops and retreats. New dates are added as they are confirmed — subscribe to be notified by email.",
+    "title": "Join us.",
+    "intro": "Community events, workshops and retreats. Subscribe to be notified by email.",
     "statusTbd": "Date to be determined",
     "statusScheduled": "Scheduled",
     "eventsTitle": "Upcoming events"
   },
   "blog": {
     "eyebrow": "Blog",
-    "title": "Notes from the circle.",
+    "title": "Notes from the Collective",
     "intro": "Updates from our community events, workshops and the work of building Munay.",
     "readMore": "Read the story",
     "backToBlog": "Back to the blog",
@@ -246,7 +246,7 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's talk.",
+    "title": "Let's Connect",
     "intro": "Whether you are looking for care, want to bring a workshop to your community or simply want to learn more, write to us.",
     "directTitle": "Write to us directly",
     "directBody": "You can also reach us by email. We will never share your information.",
@@ -308,7 +308,7 @@
     "terms": "Terms",
     "cookies": "Cookies",
     "copyright": "© 2026 Munay. All rights reserved.",
-    "madeWith": "Made with love, in reciprocity.",
+    "madeWith": "Created with love, in reciprocity.",
     "followLabel": "Follow us",
     "facebookLabel": "Follow Munay on Facebook",
     "linkedinLabel": "Connect with Munay on LinkedIn"

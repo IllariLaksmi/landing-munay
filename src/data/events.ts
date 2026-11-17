@@ -19,9 +19,6 @@ export interface EventItem {
   href?: string;
 }
 
-const unsplash = (id: string, width = 1600) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=80`;
-
 export const events: EventItem[] = [
   {
     id: "zumbathon",
@@ -36,10 +33,10 @@ export const events: EventItem[] = [
       es: "Nuestro primer evento comunitario. La fecha aún está por confirmar.",
     },
     image: {
-      src: unsplash("photo-1524594152303-9fd13543fe6e"),
+      src: "/brand/hero-community.jpg",
       alt: {
-        en: "A diverse group of people dancing together in a bright community space.",
-        es: "Un grupo diverso de personas bailando juntas en un espacio comunitario luminoso.",
+        en: "A diverse group of young people smiling together.",
+        es: "Un grupo diverso de personas jóvenes sonriendo juntas.",
       },
     },
   },

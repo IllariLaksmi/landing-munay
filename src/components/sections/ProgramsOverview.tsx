@@ -50,20 +50,13 @@ export function ProgramsOverview({ dict, programs, locale }: ProgramsOverviewPro
       />
 
       <div className="relative mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12 xl:px-16">
-        <div className="grid gap-8 lg:grid-cols-12 lg:items-end lg:gap-12">
-          <div className="lg:col-span-7">
-            <p className="eyebrow text-cream/80">{dict.eyebrow}</p>
-            <h2
-              id="programs-overview-title"
-              className="display-balance mt-5 max-w-2xl font-display text-5xl leading-[0.9] text-cream sm:text-6xl lg:text-7xl"
-            >
-              {dict.title}
-            </h2>
-          </div>
-          <p className="pretty max-w-xl text-base leading-relaxed text-cream/90 sm:text-lg lg:col-span-5 lg:justify-self-end">
-            {dict.intro}
-          </p>
-        </div>
+        <p className="eyebrow text-cream/80">{dict.eyebrow}</p>
+        <h2
+          id="programs-overview-title"
+          className="display-balance mt-5 font-display text-[clamp(2.5rem,4vw,3.75rem)] leading-[0.95] text-cream lg:whitespace-nowrap"
+        >
+          {dict.title}
+        </h2>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
           {items.map((item, index) => (

@@ -11,8 +11,8 @@ export interface EditorialImage {
  */
 export const media = {
   hero: {
-    src: "/brand/hero-community.jpg",
-    width: 1040,
-    height: 1081,
+    src: "/brand/hero-inclusive-spaces.png",
+    width: 1400,
+    height: 1400,
   },
 } satisfies Record<string, EditorialImage>;

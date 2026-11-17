@@ -15,7 +15,7 @@ interface Group {
   services: Service[];
 }
 
-interface IndividualServicesTabsProps {
+interface ServicesTabsProps {
   groups: Group[];
   label: string;
 }
@@ -24,10 +24,10 @@ interface IndividualServicesTabsProps {
  * Accessible tabs (WAI-ARIA Authoring Practices): roving tabindex, arrow/Home/
  * End navigation and an explicit relationship between each tab and panel.
  */
-export function IndividualServicesTabs({
+export function ServicesTabs({
   groups,
   label,
-}: IndividualServicesTabsProps) {
+}: ServicesTabsProps) {
   const [active, setActive] = useState(0);
   const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
 
