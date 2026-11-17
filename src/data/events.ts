@@ -33,10 +33,10 @@ export const events: EventItem[] = [
       es: "Nuestro primer evento comunitario. La fecha aún está por confirmar.",
     },
     image: {
-      src: "/brand/event-zumbathon-park.jpg",
+      src: "/brand/event-zumbathon-inclusive.jpg",
       alt: {
-        en: "A group of women dancing Zumba together outdoors in a park.",
-        es: "Un grupo de mujeres bailando zumba juntas al aire libre en un parque.",
+        en: "A group doing Zumba outdoors, including a person dancing in a wheelchair.",
+        es: "Un grupo haciendo zumba al aire libre, incluida una persona bailando en silla de ruedas.",
       },
     },
   },
