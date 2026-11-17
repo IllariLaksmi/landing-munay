@@ -56,11 +56,6 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
                     className="shadow-soft"
                     aspectClassName="aspect-[4/3]"
                   />
-                  {member.founder ? (
-                    <span className="sticker absolute left-4 top-4 bg-yellow text-blue">
-                      {dict.teamTitle}
-                    </span>
-                  ) : null}
                 </figure>
 
                 <div className="border-t-2 border-blue/20 pt-5 lg:col-span-7 lg:mt-0">
