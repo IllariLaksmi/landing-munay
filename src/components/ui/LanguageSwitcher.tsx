@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import type { ChangeEvent } from "react";
 import type { Dictionary } from "@/types/dictionary";
 import {
+  localeCookieName,
   localeHtmlLang,
   localeNames,
   locales,
@@ -36,6 +37,10 @@ export function LanguageSwitcher({
     const target = event.target.value as Locale;
 
     if (target === locale || typeof window === "undefined") return;
+
+    // Remember the explicit choice so later visits without a locale prefix
+    // keep the language the visitor picked.
+    document.cookie = `${localeCookieName}=${target};path=/;max-age=31536000;samesite=lax`;
 
     const targetPath = `${switchLocalePath(window.location.pathname, target)}${window.location.search}${window.location.hash}`;
     router.push(targetPath);
