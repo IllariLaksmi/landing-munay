@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Dictionary } from "@/types/dictionary";
 import type { Locale } from "@/lib/i18n";
 import { getTeam } from "@/data/team";
-import { PhotoPending } from "@/components/ui/PhotoPending";
+import { TeamPortrait } from "@/components/ui/TeamPortrait";
 import { Cantuta, Cloud, Hummingbird } from "@/components/ui/BrandShapes";
 
 interface OurStoryProps {
@@ -62,9 +62,11 @@ export function OurStory({ dict, locale }: OurStoryProps) {
                 </p>
 
                 <figure className="relative mt-5">
-                  <PhotoPending
-                    label={dict.founderPhotoLabel}
-                    note={dict.founderPhotoNote}
+                  <TeamPortrait
+                    photo={founder.photo}
+                    alt={`${founder.name} — ${founder.role}`}
+                    pendingLabel={dict.founderPhotoLabel}
+                    pendingNote={dict.founderPhotoNote}
                     className="shadow-soft"
                   />
                 </figure>

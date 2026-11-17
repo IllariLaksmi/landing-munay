@@ -37,12 +37,7 @@ export function HomeHero({ hero, a11y, locale }: HomeHeroProps) {
 
       <div className="relative mx-auto grid w-full max-w-[1440px] gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:items-center lg:gap-10 lg:px-12 xl:px-16">
         <div className="lg:col-span-7">
-          <p className="sticker bg-yellow text-blue">
-            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-blue" />
-            {hero.badge}
-          </p>
-
-          <p className="eyebrow mt-7 text-cream/80">{hero.eyebrow}</p>
+          <p className="eyebrow text-cream/80">{hero.eyebrow}</p>
 
           <h1 id="hero-title" className="display-balance mt-4 text-cream">
             <span className="block font-display text-[clamp(3.75rem,9vw,8rem)] leading-[0.82] tracking-[-0.01em]">
@@ -79,14 +74,14 @@ export function HomeHero({ hero, a11y, locale }: HomeHeroProps) {
         </div>
 
         <figure className="relative lg:col-span-5">
-          <div className="blob-photo relative aspect-[4/5] overflow-hidden border-[10px] border-cream bg-blue/20 shadow-soft">
+          <div className="relative aspect-square">
             <Image
               src={media.hero.src}
               alt={hero.imageAlt}
               fill
               priority
               sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           <Cantuta
@@ -97,9 +92,6 @@ export function HomeHero({ hero, a11y, locale }: HomeHeroProps) {
             tone="yellow"
             className="absolute -right-6 -top-8 h-16 w-auto rotate-12 sm:h-20"
           />
-          <figcaption className="sticker absolute bottom-5 right-5 max-w-[12rem] bg-cream text-blue shadow-soft">
-            {hero.badge}
-          </figcaption>
         </figure>
       </div>
     </section>

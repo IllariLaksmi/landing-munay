@@ -47,7 +47,7 @@ PLAYWRIGHT_PRODUCTION=1 pnpm test:a11y
 | --- | --- |
 | `/[locale]` | Home: hero, historia + fundadora, programas, próximo evento y donación |
 | `/[locale]/about` | Misión, visión, 8 valores, equipo (`#team`) y junta directiva |
-| `/[locale]/programs` | Principios, talleres, servicios individuales (tabs accesibles) y retiros |
+| `/[locale]/programs` | Principios, talleres, servicios (tabs accesibles) y retiros |
 | `/[locale]/calendar` | Próximos eventos + formulario de suscripción |
 | `/[locale]/blog` | Listado de artículos desde Markdown local |
 | `/[locale]/blog/[slug]` | Artículo bilingüe |
@@ -119,7 +119,7 @@ tests/a11y.spec.ts              # Playwright + axe, desktop y mobile
 - Selector de idioma con `hreflang`, `lang` y `aria-current="page"`.
 - Enlaces externos (Zeffy, Instagram) anuncian que abren una pestaña nueva
   mediante texto `sr-only`.
-- Pestañas de servicios individuales con `role="tablist"`, `aria-selected`,
+- Pestañas de servicios con `role="tablist"`, `aria-selected`,
   `aria-controls` y navegación por flechas / Home / End.
 - Formularios con etiquetas explícitas, `aria-invalid`, resumen de errores,
   `aria-describedby` y confirmación en región `aria-live="polite"`.

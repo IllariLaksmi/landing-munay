@@ -16,8 +16,8 @@ export interface ServiceGroup {
   services: ServiceItem[];
 }
 
-/** The three pillars of Munay's individual healing work. */
-export const individualServices: ServiceGroup[] = [
+/** The three pillars of Munay's healing work. */
+export const serviceGroups: ServiceGroup[] = [
   {
     id: "mind",
     name: { en: "Mind Healing", es: "Sanación de la mente" },
@@ -29,8 +29,8 @@ export const individualServices: ServiceGroup[] = [
       {
         id: "intuitive-sex-therapy",
         name: {
-          en: "Intuitive Sex Therapy Individual",
-          es: "Sexoterapia intuitiva individual",
+          en: "Intuitive Sex Therapy",
+          es: "Sexoterapia intuitiva",
         },
         description: {
           en: "A consent-led, trauma-informed space to explore desire, pleasure, boundaries and the messages you received about sexuality.",
@@ -140,8 +140,8 @@ export const workshopTopics: ServiceItem[] = [
   },
 ];
 
-export function getIndividualServices(locale: Locale) {
-  return individualServices.map((group) => ({
+export function getServiceGroups(locale: Locale) {
+  return serviceGroups.map((group) => ({
     id: group.id,
     name: group.name[locale],
     summary: group.summary[locale],

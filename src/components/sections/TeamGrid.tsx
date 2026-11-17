@@ -1,7 +1,7 @@
 import type { Dictionary } from "@/types/dictionary";
 import type { Locale } from "@/lib/i18n";
 import { getTeam } from "@/data/team";
-import { PhotoPending } from "@/components/ui/PhotoPending";
+import { TeamPortrait } from "@/components/ui/TeamPortrait";
 import { Cantuta, LeafBranch } from "@/components/ui/BrandShapes";
 
 interface TeamGridProps {
@@ -47,9 +47,11 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
           {team.map((member) => (
             <article key={member.id}>
               <figure className="relative">
-                <PhotoPending
-                  label={dict.teamPhotoLabel}
-                  note={dict.teamPhotoNote}
+                <TeamPortrait
+                  photo={member.photo}
+                  alt={`${member.name} — ${member.role}`}
+                  pendingLabel={dict.teamPhotoLabel}
+                  pendingNote={dict.teamPhotoNote}
                   className="shadow-soft"
                 />
                 {member.founder ? (
