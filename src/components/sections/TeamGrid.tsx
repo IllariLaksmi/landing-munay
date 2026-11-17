@@ -46,27 +46,15 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
         <div className="mt-12 grid gap-12 lg:mt-16 lg:gap-16">
           {team.map((member) => (
             <article key={member.id}>
-              <div className="grid gap-7 lg:grid-cols-12 lg:items-stretch lg:gap-10">
-                <figure
-                  className={
-                    member.founder
-                      ? "relative lg:col-span-5 lg:h-full"
-                      : "relative lg:col-span-5 lg:self-start"
-                  }
-                >
+              <div className="grid gap-7 lg:grid-cols-12 lg:items-center lg:gap-10">
+                <figure className="relative lg:col-span-5">
                   <TeamPortrait
                     photo={member.photo}
                     alt={`${member.name} — ${member.role}`}
                     pendingLabel={dict.teamPhotoLabel}
                     pendingNote={dict.teamPhotoNote}
-                    className={
-                      member.founder ? "shadow-soft lg:h-full" : "shadow-soft"
-                    }
-                    aspectClassName={
-                      member.founder
-                        ? "aspect-[4/3] lg:aspect-auto"
-                        : "aspect-[4/3]"
-                    }
+                    className="shadow-soft"
+                    aspectClassName="aspect-[4/3]"
                   />
                   {member.founder ? (
                     <span className="sticker absolute left-4 top-4 bg-yellow text-blue">
