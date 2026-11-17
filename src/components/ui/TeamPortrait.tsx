@@ -13,11 +13,14 @@ interface TeamPortraitProps {
   pendingLabel: string;
   pendingNote?: string;
   className?: string;
+  /** Frame shape; defaults to the portrait card ratio. */
+  aspectClassName?: string;
 }
 
 /**
  * Renders a real team portrait when available, otherwise the branded
- * PhotoPending stand-in. Both share the same 3:4 frame so grids stay aligned.
+ * PhotoPending stand-in. The frame is configurable so landscape portraits can
+ * keep their native ratio instead of being cropped.
  */
 export function TeamPortrait({
   photo,
@@ -25,13 +28,14 @@ export function TeamPortrait({
   pendingLabel,
   pendingNote,
   className = "",
+  aspectClassName = "aspect-[3/4]",
 }: TeamPortraitProps) {
   if (!photo) {
     return (
       <PhotoPending
         label={pendingLabel}
         note={pendingNote}
-        className={className}
+        className={`${aspectClassName} ${className}`}
       />
     );
   }
@@ -39,7 +43,8 @@ export function TeamPortrait({
   return (
     <div
       className={[
-        "relative aspect-[3/4] overflow-hidden rounded-[2rem] bg-blue",
+        "relative overflow-hidden rounded-[2rem] bg-blue",
+        aspectClassName,
         className,
       ]
         .join(" ")

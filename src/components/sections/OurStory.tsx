@@ -68,6 +68,7 @@ export function OurStory({ dict, locale }: OurStoryProps) {
                     pendingLabel={dict.founderPhotoLabel}
                     pendingNote={dict.founderPhotoNote}
                     className="shadow-soft"
+                    aspectClassName="aspect-[4/3]"
                   />
                 </figure>
 

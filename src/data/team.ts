@@ -41,8 +41,8 @@ export const team: TeamMember[] = [
     },
     photo: {
       src: "/brand/team-estefania.jpg",
-      width: 640,
-      height: 427,
+      width: 1280,
+      height: 854,
     },
     photoStatus: "ready",
   },
@@ -59,8 +59,8 @@ export const team: TeamMember[] = [
     },
     photo: {
       src: "/brand/team-ivy.jpg",
-      width: 427,
-      height: 640,
+      width: 854,
+      height: 1280,
     },
     photoStatus: "ready",
   },

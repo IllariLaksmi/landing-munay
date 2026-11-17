@@ -45,33 +45,57 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
 
         <div className="mt-12 grid gap-12 sm:grid-cols-2 lg:mt-16 lg:gap-10">
           {team.map((member) => (
-            <article key={member.id}>
-              <figure className="relative">
-                <TeamPortrait
-                  photo={member.photo}
-                  alt={`${member.name} — ${member.role}`}
-                  pendingLabel={dict.teamPhotoLabel}
-                  pendingNote={dict.teamPhotoNote}
-                  className="shadow-soft"
-                />
-                {member.founder ? (
-                  <span className="sticker absolute left-4 top-4 bg-yellow text-blue">
-                    {dict.teamTitle}
-                  </span>
-                ) : null}
-              </figure>
+            <article
+              key={member.id}
+              className={member.founder ? "sm:col-span-2" : undefined}
+            >
+              <div
+                className={
+                  member.founder
+                    ? "grid gap-7 lg:grid-cols-12 lg:items-start lg:gap-10"
+                    : undefined
+                }
+              >
+                <figure
+                  className={
+                    member.founder ? "relative lg:col-span-5" : "relative"
+                  }
+                >
+                  <TeamPortrait
+                    photo={member.photo}
+                    alt={`${member.name} — ${member.role}`}
+                    pendingLabel={dict.teamPhotoLabel}
+                    pendingNote={dict.teamPhotoNote}
+                    className="shadow-soft"
+                    aspectClassName={
+                      member.founder ? "aspect-[4/3]" : "aspect-[3/4]"
+                    }
+                  />
+                  {member.founder ? (
+                    <span className="sticker absolute left-4 top-4 bg-yellow text-blue">
+                      {dict.teamTitle}
+                    </span>
+                  ) : null}
+                </figure>
 
-              <div className="mt-7 border-t-2 border-blue/20 pt-5">
-                <h3 className="font-display text-4xl leading-[0.9] text-blue sm:text-5xl">
-                  {member.name}
-                </h3>
-                <p className="mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-blue/90">
-                  {member.role}
-                </p>
-                <div className="mt-4 max-w-xl space-y-3 text-sm leading-relaxed text-blue">
-                  {member.bio.split("\n\n").map((paragraph) => (
-                    <p key={paragraph.slice(0, 48)}>{paragraph}</p>
-                  ))}
+                <div
+                  className={
+                    member.founder
+                      ? "border-t-2 border-blue/20 pt-5 lg:col-span-7 lg:mt-0"
+                      : "mt-7 border-t-2 border-blue/20 pt-5"
+                  }
+                >
+                  <h3 className="font-display text-4xl leading-[0.9] text-blue sm:text-5xl">
+                    {member.name}
+                  </h3>
+                  <p className="mt-3 text-[0.68rem] font-semibold uppercase leading-relaxed tracking-[0.14em] text-blue/90">
+                    {member.role}
+                  </p>
+                  <div className="mt-4 max-w-xl space-y-3 text-sm leading-relaxed text-blue">
+                    {member.bio.split("\n\n").map((paragraph) => (
+                      <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </article>
