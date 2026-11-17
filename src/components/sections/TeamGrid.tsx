@@ -52,13 +52,15 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
               <div
                 className={
                   member.founder
-                    ? "grid gap-7 lg:grid-cols-12 lg:items-start lg:gap-10"
+                    ? "grid gap-7 lg:grid-cols-12 lg:items-stretch lg:gap-10"
                     : undefined
                 }
               >
                 <figure
                   className={
-                    member.founder ? "relative lg:col-span-5" : "relative"
+                    member.founder
+                      ? "relative lg:col-span-5 lg:h-full"
+                      : "relative"
                   }
                 >
                   <TeamPortrait
@@ -66,9 +68,13 @@ export function TeamGrid({ dict, locale }: TeamGridProps) {
                     alt={`${member.name} — ${member.role}`}
                     pendingLabel={dict.teamPhotoLabel}
                     pendingNote={dict.teamPhotoNote}
-                    className="shadow-soft"
+                    className={
+                      member.founder ? "shadow-soft lg:h-full" : "shadow-soft"
+                    }
                     aspectClassName={
-                      member.founder ? "aspect-[4/3]" : "aspect-[3/4]"
+                      member.founder
+                        ? "aspect-[4/3] lg:aspect-auto"
+                        : "aspect-[3/4]"
                     }
                   />
                   {member.founder ? (

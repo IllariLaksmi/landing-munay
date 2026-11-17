@@ -61,14 +61,14 @@ export function OurStory({ dict, locale }: OurStoryProps) {
                 </p>
 
                 <div className="relative mt-6 grid gap-8 lg:grid-cols-12 lg:items-start lg:gap-10">
-                  <figure className="lg:col-span-4">
+                  <figure className="lg:col-span-4 lg:h-full">
                     <TeamPortrait
                       photo={founder.photo}
                       alt={`${founder.name} — ${founder.role}`}
                       pendingLabel={dict.founderPhotoLabel}
                       pendingNote={dict.founderPhotoNote}
-                      className="shadow-soft"
-                      aspectClassName="aspect-[4/3]"
+                      className="shadow-soft lg:h-full"
+                      aspectClassName="aspect-[4/3] lg:aspect-auto"
                     />
                   </figure>
 
