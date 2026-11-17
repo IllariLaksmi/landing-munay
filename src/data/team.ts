@@ -40,9 +40,9 @@ export const team: TeamMember[] = [
       es: "La Dra. Estefanía Simich Muñoz es psicoterapeuta, educadora, investigadora y defensora de la positividad sexual peruana. Su trabajo se centra en la intersección entre el trauma y la sexualidad, y en cómo el movimiento geográfico moldea la percepción de la intimidad, la identidad y la pertenencia. Tras años acompañando a personas con acceso limitado a espacios culturalmente arraigados para hablar de su sexualidad y sus experiencias, fundó Munay en 2026 para convertir esa brecha en un lugar de cuidado. Su práctica está informada en el trauma, es liderada por la comunidad y está profundamente arraigada en los principios andinos de Ayni (reciprocidad), Munay (amor incondicional), Yachay (sabiduría para aprender de nuestras experiencias) y Llan’kay (nuestro propósito en acción). Conectada con sus raíces, ha sido iniciada y formada en la tradición Q’ero como Paqo Ñusta en modalidades de sanación andina. Su compromiso con el bienestar y la sanación en comunidad son los principales motores para sostener el espacio que Munay puede ofrecer. Estefanía viaja con frecuencia a Perú y Egipto para conectar con otras sanadoras y llevar medicina ancestral a los espacios que sostiene.\n\nEstefanía tiene un doctorado en Sexualidad Humana y es Terapeuta Sexual Certificada y Supervisora por AASECT, Consejera Clínica Profesional Licenciada y Supervisora en Maryland, además de profesora de Estudios Críticos de la Sexualidad Humana.",
     },
     photo: {
-      src: "/brand/team-estefania-portrait.jpg",
-      width: 1024,
-      height: 971,
+      src: "/brand/team-estefania.jpg",
+      width: 1280,
+      height: 854,
     },
     photoStatus: "ready",
   },
