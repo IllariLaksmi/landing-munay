@@ -35,8 +35,8 @@ export const events: EventItem[] = [
     image: {
       src: "/brand/event-zumbathon.jpg",
       alt: {
-        en: "A large group of people doing Zumba together outdoors in a garden.",
-        es: "Un grupo grande de personas haciendo zumba al aire libre en un jardín.",
+        en: "A group of women dancing Zumba together outdoors in a park.",
+        es: "Un grupo de mujeres bailando zumba juntas al aire libre en un parque.",
       },
     },
   },
