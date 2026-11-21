@@ -57,11 +57,6 @@
           },
           {
             "path": "/about",
-            "hash": "board",
-            "label": "Board of Directors"
-          },
-          {
-            "path": "/about",
             "hash": "team",
             "label": "Our team"
           }
@@ -158,13 +153,9 @@
   "subscribe": {
     "eyebrow": "Stay close",
     "title": "Stay connected",
-    "body": "Join our newsletter for news about events, workshops and Munay's work.",
-    "emailLabel": "Email address",
-    "emailPlaceholder": "you@example.com",
-    "submit": "Subscribe",
-    "success": "Thank you. You are on the list — we will write when there is news.",
-    "errorEmail": "Please enter a valid email address.",
-    "privacyNote": "We only use your email to share Munay news. You can unsubscribe at any time."
+    "body": "Write to us for news about events, workshops and Munay's work.",
+    "cta": "Email us",
+    "subject": "Munay — Newsletter sign-up"
   },
   "about": {
     "eyebrow": "About Munay",
@@ -249,50 +240,8 @@
     "title": "Let's Connect",
     "intro": "Whether you are looking for care, want to bring a workshop to your community or simply want to learn more, write to us.",
     "directTitle": "Write to us directly",
-    "directBody": "You can also reach us by email. We will never share your information.",
-    "nameLabel": "Name",
-    "namePlaceholder": "Your name",
-    "emailLabel": "Email address",
-    "emailPlaceholder": "you@example.com",
-    "subjectLabel": "Subject / Interest",
-    "subjectPlaceholder": "Choose an option",
-    "subjects": [
-      {
-        "value": "general",
-        "label": "General question"
-      },
-      {
-        "value": "programs",
-        "label": "Programs and services"
-      },
-      {
-        "value": "workshops",
-        "label": "Workshops"
-      },
-      {
-        "value": "retreats",
-        "label": "Day retreats"
-      },
-      {
-        "value": "donations",
-        "label": "Donations and partnerships"
-      },
-      {
-        "value": "media",
-        "label": "Press and media"
-      }
-    ],
-    "messageLabel": "Message",
-    "messagePlaceholder": "Share what you would like us to know…",
-    "submit": "Send message",
-    "successTitle": "Thank you for reaching out.",
-    "successBody": "We have received your message and will reply as soon as possible.",
-    "errorRequired": "This field is required.",
-    "errorEmail": "Please enter a valid email address.",
-    "errorSubject": "Please choose a subject.",
-    "errorSummary": "Please review the marked fields.",
-    "requiredHint": "Fields marked with * are required.",
-    "note": "Your information is only used to reply to your message. We never share it."
+    "directBody": "Reach us by email. We will never share your information.",
+    "emailLabel": "Email address"
   },
   "footer": {
     "tagline": "Unconditional love in action.",
@@ -326,7 +275,7 @@
         "id": "privacidad",
         "title": "Privacy policy",
         "paragraphs": [
-          "Munay only collects the information you share with us through our contact and newsletter forms: name, email address, subject and message. We use it to reply to your request and, if you subscribe, to send occasional updates about our work.",
+          "Munay only collects the information you share with us when you contact us by email: name, email address, subject and message. We use it to reply to your request and, if you email us for news, to send occasional updates about our work.",
           "We never sell, rent or share your data with third parties for commercial purposes. You can request access, correction or deletion by writing to info@munayinaction.org."
         ]
       },

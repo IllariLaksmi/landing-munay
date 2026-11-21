@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "@/lib/dictionaries";
 import { displayFont, sansFont } from "@/lib/fonts";
 import { isLocale, locales } from "@/lib/i18n";
@@ -98,6 +99,7 @@ export default async function LocaleLayout({
           nav={dict.nav}
           locale={locale}
         />
+        <SpeedInsights />
       </body>
     </html>
   );

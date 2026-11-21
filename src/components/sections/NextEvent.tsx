@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Dictionary } from "@/types/dictionary";
 import type { Locale } from "@/lib/i18n";
 import { getNextEvent } from "@/data/events";
-import { SubscribeForm } from "@/components/sections/SubscribeForm";
+import { SubscribeCta } from "@/components/sections/SubscribeCta";
 import { Cantuta, Cloud } from "@/components/ui/BrandShapes";
 
 interface NextEventProps {
@@ -94,11 +94,7 @@ export function NextEvent({ dict, calendar, subscribe, locale }: NextEventProps)
                 {subscribe.body}
               </p>
               <div className="mt-7">
-                <SubscribeForm
-                  dict={subscribe}
-                  tone="light"
-                  idPrefix="next-event"
-                />
+                <SubscribeCta dict={subscribe} tone="light" />
               </div>
             </div>
           </aside>

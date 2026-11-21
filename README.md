@@ -96,9 +96,9 @@ tests/a11y.spec.ts              # Playwright + axe, desktop y mobile
   pierda claves.
 - **Datos tipados:** `src/data/values.ts`, `services.ts`, `team.ts` y
   `events.ts`, cada uno con soporte `en`/`es`.
-- **Junta directiva:** `boardMembers` incluye `published: false`. El componente
-  `BoardList` no se renderiza hasta que exista al menos un nombre público, así
-  que nunca aparecen textos de “pendiente”.
+- **Junta directiva:** oculta temporalmente en `/about` hasta que los
+  nombramientos sean públicos. El componente `BoardList` y los datos siguen en
+  el proyecto para reactivarla cuando corresponda.
 - **Blog:** añade un archivo `.md` con frontmatter (`title`, `excerpt`, `date`,
   `author`) en `src/content/blog/en/` y `es/`. Usa el mismo nombre de archivo en
   ambos idiomas para conservar el slug al cambiar de idioma.

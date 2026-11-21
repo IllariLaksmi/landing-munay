@@ -57,11 +57,6 @@
           },
           {
             "path": "/about",
-            "hash": "board",
-            "label": "Junta directiva"
-          },
-          {
-            "path": "/about",
             "hash": "team",
             "label": "Nuestro equipo"
           }
@@ -158,13 +153,9 @@
   "subscribe": {
     "eyebrow": "Mantente cerca",
     "title": "Mantente conectada.",
-    "body": "Únete a nuestro boletín para recibir novedades sobre eventos, talleres y el trabajo de Munay.",
-    "emailLabel": "Correo electrónico",
-    "emailPlaceholder": "tu@correo.com",
-    "submit": "Suscribirme",
-    "success": "Gracias. Ya estás en la lista: te escribiremos cuando haya novedades.",
-    "errorEmail": "Escribe un correo electrónico válido.",
-    "privacyNote": "Solo usamos tu correo para compartir novedades de Munay. Puedes darte de baja en cualquier momento."
+    "body": "Escríbenos para recibir novedades sobre eventos, talleres y el trabajo de Munay.",
+    "cta": "Escríbenos",
+    "subject": "Munay — Suscripción a novedades"
   },
   "about": {
     "eyebrow": "Sobre Munay",
@@ -249,50 +240,8 @@
     "title": "Conectemos",
     "intro": "Ya sea que estés buscando cuidado, quieras llevar un taller a tu comunidad o simplemente conocer más, escríbenos.",
     "directTitle": "Escríbenos directamente",
-    "directBody": "También puedes contactarnos por correo electrónico. Nunca compartiremos tu información.",
-    "nameLabel": "Nombre",
-    "namePlaceholder": "Tu nombre",
-    "emailLabel": "Correo electrónico",
-    "emailPlaceholder": "tu@correo.com",
-    "subjectLabel": "Asunto / Interés",
-    "subjectPlaceholder": "Elige una opción",
-    "subjects": [
-      {
-        "value": "general",
-        "label": "Consulta general"
-      },
-      {
-        "value": "programs",
-        "label": "Programas y servicios"
-      },
-      {
-        "value": "workshops",
-        "label": "Talleres"
-      },
-      {
-        "value": "retreats",
-        "label": "Retiros de un día"
-      },
-      {
-        "value": "donations",
-        "label": "Donaciones y alianzas"
-      },
-      {
-        "value": "media",
-        "label": "Prensa y medios"
-      }
-    ],
-    "messageLabel": "Mensaje",
-    "messagePlaceholder": "Comparte lo que te gustaría que sepamos…",
-    "submit": "Enviar mensaje",
-    "successTitle": "Gracias por escribirnos.",
-    "successBody": "Hemos recibido tu mensaje y te responderemos lo antes posible.",
-    "errorRequired": "Este campo es obligatorio.",
-    "errorEmail": "Escribe un correo electrónico válido.",
-    "errorSubject": "Elige un asunto.",
-    "errorSummary": "Revisa los campos marcados.",
-    "requiredHint": "Los campos con * son obligatorios.",
-    "note": "Tu información solo se usa para responder tu mensaje. Nunca la compartimos."
+    "directBody": "Contáctanos por correo electrónico. Nunca compartiremos tu información.",
+    "emailLabel": "Correo electrónico"
   },
   "footer": {
     "tagline": "Amor incondicional en acción.",
@@ -326,7 +275,7 @@
         "id": "privacidad",
         "title": "Política de privacidad",
         "paragraphs": [
-          "Munay recoge únicamente los datos que nos compartes a través de nuestros formularios de contacto y boletín: nombre, correo electrónico, asunto y mensaje. Los usamos para responder tu solicitud y, si te suscribes, para enviar novedades ocasionales sobre nuestro trabajo.",
+          "Munay recoge únicamente los datos que nos compartes cuando nos contactas por correo electrónico: nombre, correo electrónico, asunto y mensaje. Los usamos para responder tu solicitud y, si nos escribes para recibir novedades, para enviar actualizaciones ocasionales sobre nuestro trabajo.",
           "No vendemos, alquilamos ni cedemos tus datos a terceros con fines comerciales. Puedes solicitar su acceso, rectificación o eliminación escribiendo a info@munayinaction.org."
         ]
       },

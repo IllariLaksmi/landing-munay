@@ -7,4 +7,4 @@ author: "Munay"
 
 Munay's first community event will be a Zumbathon. The date is to be confirmed.
 
-Subscribe to our newsletter and we will let you know as soon as the date is announced. You can also follow us on Instagram, Facebook and LinkedIn.
+Write to us at info@munayinaction.org and we will let you know as soon as the date is announced. You can also follow us on Instagram, Facebook and LinkedIn.
