@@ -64,19 +64,6 @@ export const team: TeamMember[] = [
     },
     photoStatus: "ready",
   },
-  {
-    id: "nia",
-    name: "Nia",
-    role: {
-      en: "Team member",
-      es: "Integrante del equipo",
-    },
-    bio: {
-      en: "Bio coming soon.",
-      es: "Biografía próximamente.",
-    },
-    photoStatus: "pending",
-  },
 ];
 
 /**

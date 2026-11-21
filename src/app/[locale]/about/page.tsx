@@ -5,7 +5,6 @@ import { isLocale } from "@/lib/i18n";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ValuesList } from "@/components/sections/ValuesList";
 import { TeamGrid } from "@/components/sections/TeamGrid";
-import { BoardList } from "@/components/sections/BoardList";
 import { DonateBanner } from "@/components/sections/DonateBanner";
 import { Cloud, LeafBranch } from "@/components/ui/BrandShapes";
 
@@ -131,7 +130,7 @@ export default async function AboutPage({
 
       <ValuesList dict={dict.about} locale={locale} />
       <TeamGrid dict={dict.about} locale={locale} />
-      <BoardList dict={dict.about} locale={locale} />
+      {/* Board list hidden temporarily — re-enable when appointments are public. */}
       <DonateBanner dict={dict.home.donate} a11y={dict.a11y} />
     </main>
   );

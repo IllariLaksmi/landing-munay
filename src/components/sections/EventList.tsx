@@ -1,15 +1,13 @@
 import Image from "next/image";
 import type { Dictionary } from "@/types/dictionary";
-import type { Locale } from "@/lib/i18n";
 import type { LocalizedEvent } from "@/data/events";
-import { SubscribeForm } from "@/components/sections/SubscribeForm";
+import { SubscribeCta } from "@/components/sections/SubscribeCta";
 
 interface EventListProps {
   events: LocalizedEvent[];
   calendar: Dictionary["calendar"];
   subscribe: Dictionary["subscribe"];
   a11y: Dictionary["a11y"];
-  locale: Locale;
 }
 
 export function EventList({
@@ -17,7 +15,6 @@ export function EventList({
   calendar,
   subscribe,
   a11y,
-  locale,
 }: EventListProps) {
   return (
     <section
@@ -101,11 +98,7 @@ export function EventList({
               {subscribe.body}
             </p>
             <div className="mt-7">
-              <SubscribeForm
-                dict={subscribe}
-                tone="light"
-                idPrefix={`calendar-${locale}`}
-              />
+              <SubscribeCta dict={subscribe} tone="light" />
             </div>
           </div>
         </aside>

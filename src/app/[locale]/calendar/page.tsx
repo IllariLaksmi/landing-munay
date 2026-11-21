@@ -57,7 +57,6 @@ export default async function CalendarPage({
         calendar={dict.calendar}
         subscribe={dict.subscribe}
         a11y={dict.a11y}
-        locale={locale}
       />
       <DonateBanner dict={dict.home.donate} a11y={dict.a11y} />
     </main>

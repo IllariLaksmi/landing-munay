@@ -6,7 +6,7 @@ import { CONTACT_EMAIL, navHref } from "@/lib/constants";
 import { Cantuta, LeafBranch } from "@/components/ui/BrandShapes";
 import { DonateButton } from "@/components/ui/DonateButton";
 import { SocialLinks } from "@/components/ui/SocialLinks";
-import { SubscribeForm } from "@/components/sections/SubscribeForm";
+import { SubscribeCta } from "@/components/sections/SubscribeCta";
 
 interface FooterProps {
   footer: Dictionary["footer"];
@@ -145,11 +145,7 @@ export function Footer({ footer, subscribe, a11y, nav, locale }: FooterProps) {
               {subscribe.body}
             </p>
             <div className="mt-6">
-              <SubscribeForm
-                dict={subscribe}
-                tone="light"
-                idPrefix="footer"
-              />
+              <SubscribeCta dict={subscribe} tone="light" />
             </div>
           </div>
         </div>
