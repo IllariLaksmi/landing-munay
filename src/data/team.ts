@@ -64,6 +64,24 @@ export const team: TeamMember[] = [
     },
     photoStatus: "ready",
   },
+  {
+    id: "lyndsey-bryant",
+    name: "Lyndsey Bryant",
+    role: {
+      en: "Licensed Clinical Professional Counselor, Sex Therapist and Educator",
+      es: "Consejera Clínica Profesional Licenciada, Terapeuta Sexual y Educadora",
+    },
+    bio: {
+      en: "Lyndsey is a therapist with over 5 years of experience working with clients from diverse populations but specializing in trauma and sexuality. Feeling limited by western clinical modalities, with the support of friend and mentor Dr Estefanía Simich Muñoz, she sought additional tools, practices, and forms of healing that focus on fostering the mind-body-spirit network. Through a trauma-informed, sex positive, and culturally responsive approach, her hope is to help clients strengthen their connection to themselves and others by creating space where they can safely explore identity, relationships, intimacy, and pleasure without shame to enhance their overall wellbeing.",
+      es: "Lyndsey es terapeuta con más de 5 años de experiencia trabajando con clientes de poblaciones diversas, especializándose en trauma y sexualidad. Al sentirse limitada por las modalidades clínicas occidentales, y con el apoyo de su amiga y mentora la Dra. Estefanía Simich Muñoz, buscó herramientas, prácticas y formas de sanación adicionales que se centran en nutrir la red mente-cuerpo-espíritu. A través de un enfoque informado en el trauma, sexo positivo y culturalmente sensible, su esperanza es ayudar a las personas a fortalecer su conexión consigo mismas y con los demás, creando un espacio donde puedan explorar con seguridad su identidad, sus relaciones, la intimidad y el placer sin vergüenza, para mejorar su bienestar general.",
+    },
+    photo: {
+      src: "/brand/team-lyndsey.jpg",
+      width: 480,
+      height: 640,
+    },
+    photoStatus: "ready",
+  },
 ];
 
 /**
